@@ -1,0 +1,733 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - Supermarket Simulator (12.04.2024 07:47:21)
+[Info   :   BepInEx] Running under Unity v2021.3.31.3410402
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [Tobey.BepInExMelonLoaderWizard 0.2.0.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Warning:  HarmonyX] AccessTools.Method: Could not find method for type System.IO.Directory and name ResolveLinkTarget and parameters (string, bool)
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 15 plugins to load
+[Info   :   BepInEx] Loading [BepInEx.MelonLoader.Loader.UnityMono 2.1.0]
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] Game Name: Supermarket Simulator
+[Message:MelonLoader] Game Developer: Nokta Games
+[Message:MelonLoader] Unity Version: 2021.3.31f1
+[Message:MelonLoader] Game Version: UNKNOWN
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] 
+[Message:MelonLoader] Preferences Loaded!
+[Message:MelonLoader] 
+[Message:MelonLoader] Loading Plugins from 'D:\Supermarket Simulator mod\Github\Für alle\MLLoader\Plugins'...
+[Message:MelonLoader] 0 Plugins loaded.
+[Message:MelonLoader] 
+[Message:MelonLoader] Loading Mods from 'D:\Supermarket Simulator mod\Github\Für alle\MLLoader\Mods'...
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\AutoPriceUpdater.dll'
+[Message:MelonLoader] SHA256 Hash: 'adcaaf8de4640dd752a6001f86bb55c7939f8057c3ee61aff8a9a1240f5af284'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\BetterSaveSystem.dll'
+[Message:MelonLoader] SHA256 Hash: '6866ab560d880b860f1087781afa1286052e12a210798ca3c57a2ec50108f0b3'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\CheckoutTheme.dll'
+[Message:MelonLoader] SHA256 Hash: '9fbf9f948e875b9551e736dd2a5f6e249a530f59d81a277870c3bb14c8f417ba'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\DeliveryOrganizer.dll'
+[Message:MelonLoader] SHA256 Hash: '43328ae4a57091125827d51348d5e3c3788fc5ca6c9a18a1e102986b340d9ad7'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\EZDelivery.dll'
+[Message:MelonLoader] SHA256 Hash: '1da7b262061161200b0b3fdb02d3c2698e45a730a236bf5da7fc5221a0d78e54'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\PauseRestockers.dll'
+[Message:MelonLoader] SHA256 Hash: '72cfed2837d711d57a27180feb3fe2936313048834ff42f14689f9a8dc0c0f86'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\Refill.dll'
+[Message:MelonLoader] SHA256 Hash: '8de37ded8b7ebf7630c445c4c39578e3ce4a3c3fa3884cf2b419d0b8d312c567'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\SMS_PalletsDisplay.dll'
+[Message:MelonLoader] SHA256 Hash: 'a48b68999253d40e3a1614bef404a89a4d4098843bc3f0856f1494ce0632d41a'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\StoreCustomizer.dll'
+[Message:MelonLoader] SHA256 Hash: '202006072a4caae195b3c49f256f18815dfc764171a117fd92d288020a1b5cbd'
+[Message:MelonLoader] 
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] AutoPriceUpdater v0.1.1 by DIASILEDU []
+[Message:MelonLoader] Assembly: AutoPriceUpdater.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] Better Save System v1.0.0 by iSoq []
+[Message:MelonLoader] Assembly: BetterSaveSystem.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] Checkout Theme v1.2.1 by Morabis []
+[Message:MelonLoader] Assembly: CheckoutTheme.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] DeliveryOrganizer v0.0.3 by DIASILEDU []
+[Message:MelonLoader] Assembly: DeliveryOrganizer.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] EZ Delivery v1.5.2 by WaffDev []
+[Message:MelonLoader] Assembly: EZDelivery.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] PauseRestockers v1.0.1 by AlconH []
+[Message:MelonLoader] Assembly: PauseRestockers.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] [Refill_Storage] OnEarlyInitializeMelon: Refill Storage
+[Message:MelonLoader] [Refill_Storage] OnSceneWasLoaded:Caricamento custom assets
+[Message:MelonLoader] [Refill_Storage] OnSceneWasLoaded:Assets 1 of 2
+[Message:MelonLoader] [Refill_Storage] OnSceneWasLoaded:Assets 2 of 2
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] Refill Storage v1.1.2 by Alrikh []
+[Message:MelonLoader] Assembly: Refill.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] Pallets Display v1.0.0 by iSoq []
+[Message:MelonLoader] Assembly: SMS_PalletsDisplay.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] Store Customizer v1.1.3 by iSoq []
+[Message:MelonLoader] Assembly: StoreCustomizer.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] 9 Mods loaded.
+[Message:MelonLoader] 
+[Message:MelonLoader] Support Module Loaded: D:\Supermarket Simulator mod\Github\Für alle\MLLoader\MelonLoader\Dependencies\SupportModules\Mono.dll
+[Info   : Unity Log] -------------------------------------------------------------------------------------------------------
+[Info   : Unity Log] ~   This Game has been MODIFIED using MelonLoader. DO NOT report any issues to the Game Developers!   ~
+[Info   : Unity Log] -------------------------------------------------------------------------------------------------------
+[Message:MelonLoader] [AutoPriceUpdater] MelonPreferences Loaded from D:\Supermarket Simulator mod\Github\Für alle\MLLoader\UserData\PriceUpdater.cfg
+[Message:MelonLoader] [Better_Save_System] Version: 1.0.0
+[Message:MelonLoader] [Better_Save_System] BSM assets loaded
+[Message:MelonLoader] [Checkout_Theme] MelonPreferences Loaded from MLLoader/UserData/checkouttheme.cfg
+[Message:MelonLoader] [DeliveryOrganizer] DeliveryOrganizerMod has been loaded!
+[Message:MelonLoader] [EZ_Delivery] Preferences Saved!
+[Message:MelonLoader] [Store_Customizer] StoreCustomizationMod started
+[Message:MelonLoader] MelonPreferences Loaded from D:\Supermarket Simulator mod\Github\Für alle\MLLoader\UserData\store_customizer.cfg
+[Message:MelonLoader] [Store_Customizer] MelonPreferences Loaded from D:\Supermarket Simulator mod\Github\Für alle\MLLoader\UserData\store_customizer.cfg
+[Message:MelonLoader] [Store_Customizer] StoreCustomizer assets loaded
+[Info   :   BepInEx] Loading [ChangeCurrency 2.1.2]
+[Info   :ChangeCurrency] Plugin ChangeCurrency is loaded! Applying patch...
+[Info   :ChangeCurrency] Working directory: D:\Supermarket Simulator mod\Github\Für alle
+[Info   :ChangeCurrency] Currency String: 3
+[Info   :   BepInEx] Loading [EasyScan 1.0.1]
+[Info   :  EasyScan] Plugin EasyScan is loaded! Applying patch...
+[Info   :   BepInEx] Loading [NarrowRack 1.2.0]
+[Info   :NarrowRack] Plugin NarrowRack is loaded!
+[Info   :   BepInEx] Loading [NarrowShelf 1.0.0]
+[Info   :NarrowShelf] Plugin NarrowShelf is loaded!
+[Info   :   BepInEx] Loading [PortableScanner 1.1.2]
+[Info   :   BepInEx] Loading [ResizableLabels 1.0.0]
+[Info   :ResizableLabels] Plugin ResizableLabels is loaded!
+[Info   :   BepInEx] Loading [MoveTrashBin 1.0.0]
+[Info   :   BepInEx] Loading [SoundReplacer 1.0.0]
+[Info   :   BepInEx] Loading [TextureReplacer 1.1.1]
+[Info   :   BepInEx] Loading [SmartPocketBoxes 1.3.4]
+[Info   :   BepInEx] Loading [File Tree 1.0.0]
+[Info   :   BepInEx] Loading [TwitchIntegration 1.3.1]
+[Info   :TwitchIntegration] [TWITCH] Loading TwitchIntegration v1.3.1 Plugin...
+[Info   :TwitchIntegration] [TWITCH] Initialize Command Manager...
+[Info   :TwitchIntegration] [TWITCH] Initialized Command Manager!
+[Info   :TwitchIntegration] [TWITCH] Initializing TwitchIntegration config...
+[Info   :TwitchIntegration] [TWITCH] Initializing TwitchIntegration config completed!
+[Info   :TwitchIntegration] [TWITCH] Loading TwitchIntegration localization file...
+[Info   :TwitchIntegration] [TWITCH] TwitchIntegration localization file loaded!
+[Info   :TwitchIntegration] [TWITCH] Using language: en
+[Info   :TwitchIntegration] [TWITCH] Getting cheer emotes...
+[Info   :   BepInEx] Loading [UnrestrictedPlacement 1.0.0]
+[Info   :UnrestrictedPlacement] Plugin UnrestrictedPlacement is loaded! Applying patch...
+[Info   :   BepInEx] Loading [VisibleScannerExtension 1.0.0]
+[Info   :VisibleScannerExtension] Plugin VisibleScannerExtension is loaded! Applying patch...
+[Info   :VisibleScannerExtension] Texture Loaded.
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Unity Log] SaveManagerAwakePatch: CurrentSaveFilePath=
+[Message:MelonLoader] [Better_Save_System] Main Menu
+[Message:MelonLoader] [Better_Save_System] Main Menu loaded
+[Message:MelonLoader] [Better_Save_System] Approved New Game Window found
+[Message:MelonLoader] [Better_Save_System] Create Save Window
+[Message:MelonLoader] [Store_Customizer] [StoreCustomizer] OnSceneWasLoaded: Main Menu
+[Info   :TwitchIntegration] [TWITCH] Active Scene: Main Menu
+[Message:MelonLoader] [Pallets_Display] Melon Registered: AutoPriceUpdater, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Message:MelonLoader] [Pallets_Display] Melon Registered: BetterSaveSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Message:MelonLoader] [Pallets_Display] Melon Registered: CashRegisterDarkTheme, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null
+[Message:MelonLoader] [Pallets_Display] Melon Registered: DeliveryOrganizer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Message:MelonLoader] [Pallets_Display] Melon Registered: EZDelivery, Version=1.5.2.0, Culture=neutral, PublicKeyToken=null
+[Message:MelonLoader] [Pallets_Display] Melon Registered: PauseRestockers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Message:MelonLoader] [Pallets_Display] Melon Registered: Refill, Version=1.1.2.0, Culture=neutral, PublicKeyToken=null
+[Message:MelonLoader] [Pallets_Display] Melon Registered: SMS_PalletsDisplay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Message:MelonLoader] [Pallets_Display] Melon Registered: StoreCustomizer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[Message:MelonLoader] [Pallets_Display] BepInEx.MelonLoader.Loader.UnityMono
+[Message:MelonLoader] [Pallets_Display] ChangeCurrency
+[Message:MelonLoader] [Pallets_Display] EasyScan
+[Message:MelonLoader] [Pallets_Display] NarrowRack
+[Message:MelonLoader] [Pallets_Display] NarrowShelf
+[Message:MelonLoader] [Pallets_Display] PortableScanner
+[Message:MelonLoader] [Pallets_Display] ResizableLabels
+[Message:MelonLoader] [Pallets_Display] MoveTrashBin
+[Message:MelonLoader] [Pallets_Display] SoundReplacer
+[Message:MelonLoader] [Pallets_Display] TextureReplacer
+[Message:MelonLoader] [Pallets_Display] SmartPocketBoxes
+[Message:MelonLoader] [Pallets_Display] File Tree
+[Message:MelonLoader] [Pallets_Display] TwitchIntegration
+[Message:MelonLoader] [Pallets_Display] UnrestrictedPlacement
+[Message:MelonLoader] [Pallets_Display] VisibleScannerExtension
+[Message: File Tree] D:\Supermarket Simulator mod\Github\Für alle
+[Message: File Tree] |
+[Message: File Tree] |-- .git
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- (contents not shown)
+[Message: File Tree] |
+[Message: File Tree] |-- BepInEx
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- cache
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- chainloader_typeloader.dat [3,52 KB]
+[Message: File Tree] |   |   \-- harmony_interop_cache.dat [7,1 KB]
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- config
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- ChangeCurrency
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- TwitchIntegration
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- Localization_v1.3.0.json [14,32 KB]
+[Message: File Tree] |   |   |   \-- Localization_v1.3.1.json [16,92 KB]
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- BepInEx.cfg [5,43 KB]
+[Message: File Tree] |   |   |-- BepInEx.MelonLoader.Loader.UnityMono.cfg [2,51 KB]
+[Message: File Tree] |   |   |-- ChangeCurrency.cfg [13,17 KB]
+[Message: File Tree] |   |   |-- EasyScan.cfg [204 B]
+[Message: File Tree] |   |   |-- PortableScanner.cfg [4,78 KB]
+[Message: File Tree] |   |   |-- QuieterCars.cfg [239 B]
+[Message: File Tree] |   |   |-- ResizableLabels.cfg [605 B]
+[Message: File Tree] |   |   |-- shaklin.MoveTrashBin.cfg [13,69 KB]
+[Message: File Tree] |   |   |-- shaklin.NPCsCustomNames.cfg [2,36 KB]
+[Message: File Tree] |   |   |-- shaklin.SoundReplacer.cfg [201 B]
+[Message: File Tree] |   |   |-- shaklin.TextureReplacer.cfg [205 B]
+[Message: File Tree] |   |   |-- SmartPocketBoxes.cfg [1022 B]
+[Message: File Tree] |   |   |-- Tobey.FileTree.cfg [406 B]
+[Message: File Tree] |   |   |-- TwitchIntegration.cfg [10,08 KB]
+[Message: File Tree] |   |   |-- UnrestrictedPlacement.cfg [4,61 KB]
+[Message: File Tree] |   |   \-- VisibleScannerExtension.cfg [811 B]
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- core
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- 0Harmony.dll [200 KB]
+[Message: File Tree] |   |   |-- 0Harmony.xml [260,85 KB]
+[Message: File Tree] |   |   |-- 0Harmony20.dll [109 KB]
+[Message: File Tree] |   |   |-- BepInEx.dll [124,5 KB]
+[Message: File Tree] |   |   |-- BepInEx.Harmony.dll [5,5 KB]
+[Message: File Tree] |   |   |-- BepInEx.Harmony.xml [3,96 KB]
+[Message: File Tree] |   |   |-- BepInEx.Preloader.dll [41,5 KB]
+[Message: File Tree] |   |   |-- BepInEx.Preloader.xml [7,79 KB]
+[Message: File Tree] |   |   |-- BepInEx.xml [87,73 KB]
+[Message: File Tree] |   |   |-- HarmonyXInterop.dll [23 KB]
+[Message: File Tree] |   |   |-- Mono.Cecil.dll [331,5 KB]
+[Message: File Tree] |   |   |-- Mono.Cecil.Mdb.dll [42 KB]
+[Message: File Tree] |   |   |-- Mono.Cecil.Pdb.dll [84,5 KB]
+[Message: File Tree] |   |   |-- Mono.Cecil.Rocks.dll [27 KB]
+[Message: File Tree] |   |   |-- MonoMod.RuntimeDetour.dll [103,5 KB]
+[Message: File Tree] |   |   |-- MonoMod.RuntimeDetour.xml [9,19 KB]
+[Message: File Tree] |   |   |-- MonoMod.Utils.dll [183,5 KB]
+[Message: File Tree] |   |   \-- MonoMod.Utils.xml [77,12 KB]
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- patchers
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   \-- Tobey
+[Message: File Tree] |   |       |
+[Message: File Tree] |   |       |-- Tobey.BepInExMelonLoaderWizard.dll [28 KB]
+[Message: File Tree] |   |       \-- Tobey.BepInExMelonLoaderWizard.MLDisabler.exe [10,56 MB]
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- plugins
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   \-- (contents not shown)
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- LogOutput.log [13,64 KB]
+[Message: File Tree] |
+[Message: File Tree] |-- MLLoader
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- assets
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- storecustomizer_ui [446,39 KB]
+[Message: File Tree] |   |   |-- storecustomizer_ui.manifest [5,11 KB]
+[Message: File Tree] |   |   |-- storecustomizer_ui.manifest.meta [158 B]
+[Message: File Tree] |   |   \-- storecustomizer_ui.meta [155 B]
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- MelonLoader
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   \-- Dependencies
+[Message: File Tree] |   |       |
+[Message: File Tree] |   |       |-- CompatibilityLayers
+[Message: File Tree] |   |       |   |
+[Message: File Tree] |   |       |   |-- Demeo.dll [9,5 KB]
+[Message: File Tree] |   |       |   |-- IPA.dll [9,5 KB]
+[Message: File Tree] |   |       |   \-- Muse_Dash_Mono.dll [8 KB]
+[Message: File Tree] |   |       |
+[Message: File Tree] |   |       |-- SupportModules
+[Message: File Tree] |   |       |   |
+[Message: File Tree] |   |       |   |-- Mono.dll [11 KB]
+[Message: File Tree] |   |       |   \-- Preload.dll [1,86 MB]
+[Message: File Tree] |   |       |
+[Message: File Tree] |   |       \-- MelonStartScreen.dll [704 KB]
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- Mods
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- AutoPriceUpdater.dll [14,5 KB]
+[Message: File Tree] |   |   |-- BetterSaveSystem.dll [412 KB]
+[Message: File Tree] |   |   |-- CheckoutTheme.dll [14 KB]
+[Message: File Tree] |   |   |-- DeliveryOrganizer.dll [11 KB]
+[Message: File Tree] |   |   |-- EZDelivery.dll [15 KB]
+[Message: File Tree] |   |   |-- PauseRestockers.dll [5,5 KB]
+[Message: File Tree] |   |   |-- Refill.dll [58 KB]
+[Message: File Tree] |   |   |-- SMS_PalletsDisplay.dll [6,35 MB]
+[Message: File Tree] |   |   \-- StoreCustomizer.dll [473,5 KB]
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- Plugins
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   \-- (contents not shown)
+[Message: File Tree] |   |
+[Message: File Tree] |   |-- UserData
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- checkouttheme.cfg [1,6 KB]
+[Message: File Tree] |   |   |-- JonxEssentials.cfg [1,8 KB]
+[Message: File Tree] |   |   |-- MelonPreferences.cfg [83 B]
+[Message: File Tree] |   |   |-- PriceUpdater.cfg [957 B]
+[Message: File Tree] |   |   \-- store_customizer.cfg [476 B]
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- UserLibs
+[Message: File Tree] |
+[Message: File Tree] |-- MonoBleedingEdge
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- (contents not shown)
+[Message: File Tree] |
+[Message: File Tree] |-- Plugins
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- (contents not shown)
+[Message: File Tree] |
+[Message: File Tree] |-- README
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- (contents not shown)
+[Message: File Tree] |
+[Message: File Tree] |-- reshade-shaders
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- (contents not shown)
+[Message: File Tree] |
+[Message: File Tree] |-- ReShade_Setup
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- (contents not shown)
+[Message: File Tree] |
+[Message: File Tree] |-- Supermarket Simulator_BurstDebugInformation_DoNotShip
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- (contents not shown)
+[Message: File Tree] |
+[Message: File Tree] |-- Supermarket Simulator_Data
+[Message: File Tree] |   |
+[Message: File Tree] |   \-- (contents not shown)
+[Message: File Tree] |
+[Message: File Tree] |-- !mods-remove-plus-cfg.bat [2,06 KB]
+[Message: File Tree] |-- !mods-remove.bat [2,4 KB]
+[Message: File Tree] |-- !mods-update.bat [3,64 KB]
+[Message: File Tree] |-- !savegame-supermarket.bat [1,31 KB]
+[Message: File Tree] |-- !Wiki.bat [1,32 KB]
+[Message: File Tree] |-- .gitattributes [66 B]
+[Message: File Tree] |-- .gitignore [706 B]
+[Message: File Tree] |-- doorstop_config.ini [891 B]
+[Message: File Tree] |-- dxgi.dll [4,34 MB]
+[Message: File Tree] |-- HarmonyLog.txt [0 b]
+[Message: File Tree] |-- LICENSE [1,06 KB]
+[Message: File Tree] |-- NPCsCustomNames 1.0.2-116-1-0-2-1713486861.zip [15,26 KB]
+[Message: File Tree] |-- README.md [4,8 KB]
+[Message: File Tree] |-- ReShade.ini [2,77 KB]
+[Message: File Tree] |-- ReShade.log [8,97 KB]
+[Message: File Tree] |-- ReShadePreset.ini [0 b]
+[Message: File Tree] |-- Supermarket Simulator.exe [638,5 KB]
+[Message: File Tree] |-- UnityCrashHandler64.exe [1,07 MB]
+[Message: File Tree] |-- UnityPlayer.dll [28,09 MB]
+[Message: File Tree] |-- version.dll [24,5 KB]
+[Message: File Tree] \-- winhttp.dll [24,5 KB]
+[Info   : Unity Log] Custom Sounds loaded!
+[Info   : Unity Log] Custom 3D Objects loaded!
+[Info   : Unity Log] Custom Textures loaded!
+[Info   :TwitchIntegration] [TWITCH] 35 Cheer emotes collected!
+[Info   :TwitchIntegration] [TWITCH] Getting profile image...
+[Info   :TwitchIntegration] [TWITCH] Profile Image found: https://static-cdn.jtvnw.net/jtv_user_pictures/41311099-e686-4b64-b986-0848a9b11744-profile_image-300x300.png
+[Info   :TwitchIntegration] [TWITCH] TwitchIntegration - Registering Twitch Commands...
+[Info   :TwitchIntegration] [TWITCH] Registering command VISIT...
+[Info   :TwitchIntegration] [TWITCH] Successfully registered commands!
+[Info   :TwitchIntegration] [TWITCH] Registering command TALK...
+[Info   :TwitchIntegration] [TWITCH] Successfully registered commands!
+[Info   :TwitchIntegration] [TWITCH] Registering command LEAVE...
+[Info   :TwitchIntegration] [TWITCH] Successfully registered commands!
+[Info   :TwitchIntegration] [TWITCH] TwitchIntegration - Twitch Commands registered!
+[Info   :TwitchIntegration] [TWITCH] TwitchIntegration - Patched classes!
+[Info   :TwitchIntegration] [TWITCH] TwitchIntegration Plugin loaded!
+[Info   : Unity Log] SaveManagerAwakePatch: CurrentSaveFilePath=C:/Users/Andy1/AppData/LocalLow/Nokta Games/Supermarket Simulator\Save 1.es3
+[Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
+[Info   :ChangeCurrency] False
+[Message:MelonLoader] [Pallets_Display] Table=Bank Loans_de
+[Message:MelonLoader] [Pallets_Display] Table=Computer_de
+[Message:MelonLoader] [Pallets_Display] Table=Customer Speech_de
+[Message:MelonLoader] [Pallets_Display] Table=Daily Statistics_de
+[Message:MelonLoader] [Pallets_Display] Table=Display Type_de
+[Message:MelonLoader] [Pallets_Display] Table=Furnitures_de
+[Message:MelonLoader] [Pallets_Display] Table=InGame_de
+[Message:MelonLoader] [Pallets_Display] Table=Interaction Hints_de
+[Message:MelonLoader] [Pallets_Display] Table=Interaction Warnings_de
+[Message:MelonLoader] [Pallets_Display] Table=Interaction_de
+[Message:MelonLoader] [Pallets_Display] Table=Menu_de
+[Message:MelonLoader] [Pallets_Display] Table=Objective_de
+[Message:MelonLoader] [Pallets_Display] Table=Onboarding_de
+[Message:MelonLoader] [Pallets_Display] Table=Product Licenses_de
+[Message:MelonLoader] [Pallets_Display] Table=Products_de
+[Message:MelonLoader] [Pallets_Display] Table=Sections_de
+[Message:MelonLoader] [Pallets_Display] Table=Warnings_de
+[Message:MelonLoader] [Better_Save_System] Main Scene
+[Message:MelonLoader] [Store_Customizer] [StoreCustomizer] OnSceneWasLoaded: Main Scene
+[Message:MelonLoader] [Store_Customizer] [StoreCustomizer] LoadedComputerObjects
+[Message:MelonLoader] [Store_Customizer] [StoreCustomizer] LoadedWallsObjects
+[Message:MelonLoader] [Store_Customizer] [StoreCustomizer] Loading config into game
+[Info   : Unity Log] StorageTitleColor=RGBA(0.000, 0.000, 1.000, 1.000) || Party Markt Lager
+[Info   : Unity Log] StoreCustomizerName: True
+[Info   : Unity Log] m_OnClickTrue
+[Info   :TwitchIntegration] [TWITCH] Active Scene: Main Scene
+[Info   :TwitchIntegration] [TWITCH] Create Pick New Name Button...
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+[Info   :TwitchIntegration] [TWITCH] Pick New Name Button created!
+[Info   :TwitchIntegration] [TWITCH] Updating Hire Tab...
+[Info   :TwitchIntegration] [TWITCH] Updating Cashier Items...
+[Info   :TwitchIntegration] [TWITCH] Updating Restocker Items...
+[Info   :TwitchIntegration] [TWITCH] Hire Tab updated!
+[Info   :TwitchIntegration] [TWITCH] Subscribed to Day Cycle Events!
+[Info   :TwitchIntegration] [TWITCH] Loaded all Scenes and resetted to default!
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Info   :NarrowRack] shrinking visible shelfs
+[Info   :NarrowRack] fixing navmash
+[Info   :NarrowRack] fixing placing mode
+[Info   :NarrowRack] fixing interaction zone
+[Info   :NarrowRack] killing parents for display
+[Info   :NarrowRack] moving to right place for X Axis
+[Info   :NarrowRack] shrinking visible shelfs
+[Info   :NarrowRack] fixing navmash
+[Info   :NarrowRack] fixing placing mode
+[Info   :NarrowRack] fixing interaction zone
+[Info   :NarrowRack] killing parents for display
+[Info   :NarrowRack] moving to right place for X Axis
+[Info   :NarrowShelf] Narrow Shelf (UnityEngine.GameObject)
+[Info   :NarrowShelf] shrinking visible shelfs
+[Info   :NarrowShelf] fixing navmash
+[Info   :NarrowShelf] fixing placing mode
+[Info   :NarrowShelf] fixing interaction zone
+[Info   :NarrowShelf] killing parents for display
+[Info   :NarrowShelf] moving to right place for X Axis
+[Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
+[Info   :ChangeCurrency] False
+[Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
+[Info   :ChangeCurrency] False
+[Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
+[Info   :ChangeCurrency] False
+[Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
+[Info   :ChangeCurrency] False
+[Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
+[Info   :ChangeCurrency] False
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Message:MelonLoader] [Pallets_Display] True
+[Info   : Unity Log] Furnitures loaded: 61
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Info   :TwitchIntegration] [TWITCH] Connecting to irc.chat.twitch.tv:6667
+[Info   :TwitchIntegration] [TWITCH] Connected! Try to get user (GamerHD1991-Supermarket, GamerHD1991)
+[Info   :TwitchIntegration] [TWITCH] Joined Channel: gamerhd1991
+[Info   :TwitchIntegration] [TWITCH] Status updated to Twitch connected!
+[Info   :TwitchIntegration] [TWITCH] ImageLoader Loading: https://static-cdn.jtvnw.net/jtv_user_pictures/41311099-e686-4b64-b986-0848a9b11744-profile_image-300x300.png
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "---GAME---/Store/Storage/Walls/Showcase_Store_08/Showcase_Store_Door_08"
+[Error  : Unity Log] Display Slot doesn't have a display parent
+[Error  : Unity Log] Display Slot (2) doesn't have a display parent
+[Error  : Unity Log] Display Slot (4) doesn't have a display parent
+[Error  : Unity Log] Display Slot (6) doesn't have a display parent
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Warning: Unity Log] You're attempting to despawn a null gameObject.
+[Message:MelonLoader] [AutoPriceUpdater] Starting AutoPriceUpdater...
+[Message:MelonLoader] [AutoPriceUpdater] No products are ignored.
+[Message:MelonLoader] [AutoPriceUpdater] All prices are up to date.
+[Message:MelonLoader] [AutoPriceUpdater] AutoPriceUpdater started!
+[Info   : Unity Log] Move Trash Bin: Trash Bin position saved!
+[Info   : Unity Log] AITrafficCar__Coupe_1A(Clone)
+[Info   : Unity Log] AITrafficCar__Supersport_1A(Clone)
+[Info   : Unity Log] AITrafficCar__Sedan_3A(Clone)
+[Info   : Unity Log] AITrafficCar__PickUp_1A(Clone)
+[Info   : Unity Log] AITrafficCar__Taxi_1A(Clone)
+[Info   : Unity Log] AITrafficCar__Compact_1A(Clone)
+[Info   : Unity Log] Checkout
+[Info   : Unity Log] Scanning
+[Info   : Unity Log] Checkout
+[Info   : Unity Log] Scanning
+[Info   : Unity Log] Checkout
+[Info   : Unity Log] Scanning
+[Info   : Unity Log] Checkout
+[Info   : Unity Log] Scanning
+[Info   : Unity Log] Checkout
+[Info   : Unity Log] Scanning
+[Info   : Unity Log] AITrafficCar__Supersport_1A
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   : Unity Log] AITrafficCar__Sedan_3A
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   : Unity Log] Switch Off
+[Info   : Unity Log] Checkout Warning SFX
+[Info   : Unity Log] Checkout
+[Info   : Unity Log] Switch On
+[Info   : Unity Log] Checkout
+[Info   : Unity Log] AITrafficCar__Taxi_1A
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   : Unity Log] Scanning
+[Info   : Unity Log] Money Paper
+[Info   : Unity Log] Picking Up Box
+[Info   : Unity Log] Coin
+[Info   : Unity Log] Scanning Product
+[Info   : Unity Log] Mouse Click
+[Info   : Unity Log] Cash Register Open
+[Info   : Unity Log] Cash Register Close
+[Info   : Unity Log] Dropping Box
+[Info   : Unity Log] Place Item SFX
+[Info   : Unity Log] Checkout SFX
+[Info   : Unity Log] Background SFX
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   : Unity Log] Scanning
+[Info   : Unity Log] AITrafficCar__Coupe_1A
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   : Unity Log] AITrafficCar__PickUp_1A
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   : Unity Log] AITrafficCar__Compact_1A
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   : Unity Log] Cash Register Open
+[Info   : Unity Log] Dropping Box
+[Info   : Unity Log] Cash Register Close
+[Info   : Unity Log] Place Item SFX
+[Info   : Unity Log] Checkout SFX
+[Info   : Unity Log] Background SFX
+[Info   : Unity Log] Money Paper
+[Info   : Unity Log] Picking Up Box
+[Info   : Unity Log] Coin
+[Info   : Unity Log] Mouse Click
+[Info   : Unity Log] Scanning Product
+[Info   : Unity Log] Checkout Warning SFX
+[Info   : Unity Log] Switch Off
+[Info   : Unity Log] Switch On
+[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - ): the tween will now be killed ► 
+[Error  :SmartPocketBoxes] SETUP BACKPACK
+[Info   : Unity Log] Market prices changed for following products
+[Info   :TwitchIntegration] [TWITCH] Profile Image loaded!
+[Message:MelonLoader] [EZ_Delivery] Final Count: 1
+[Info   :SmartPocketBoxes] USER IS HOLDING BOX
+[Info   :SmartPocketBoxes] CONSOLIDATED] 2 Cereal IN 2 BOXES INTO 1 BOXES.
+[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of () ► 
+
+  at (wrapper managed-to-native) UnityEngine.GameObject.SetActive(UnityEngine.GameObject,bool)
+  at Box.<CloseBox>b__55_0 () [0x00000] in <5a2193a3129a437f83b27d620b4aa00d>:0 
+  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00007] in <fcc0bbf6bf4e430c91d4aa05736fc5c6>:0 
+
+
+[Info   :SmartPocketBoxes] Attempt Spawn Key Press While Not Holding Box
+[Error  :SmartPocketBoxes] LABEL IS NULL
+[Info   :SmartPocketBoxes] Attempt Spawn Key Press While Not Holding Box
+[Error  :SmartPocketBoxes] LABEL IS NULL
+[Info   :SmartPocketBoxes] Attempt Spawn Key Press While Not Holding Box
+[Error  :SmartPocketBoxes] LABEL IS NULL
+[Message:MelonLoader] [Store_Customizer] MelonPreferences Saved to D:\Supermarket Simulator mod\Github\Für alle\MLLoader\UserData\store_customizer.cfg
