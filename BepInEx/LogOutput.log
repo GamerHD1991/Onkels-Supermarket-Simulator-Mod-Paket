@@ -1,175 +1,85 @@
-[Message:   BepInEx] BepInEx 5.4.22.0 - Supermarket Simulator (12.04.2024 07:47:21)
-[Info   :   BepInEx] Running under Unity v2021.3.31.3410402
+[Message:   BepInEx] BepInEx 5.4.23.2 - Supermarket Simulator (20.08.2024 20:39:21)
+[Info   :   BepInEx] Running under Unity v2022.3.38.12965287
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
 [Info   :   BepInEx] Supports SRE: True
 [Info   :   BepInEx] System platform: Bits64, Windows
 [Message:   BepInEx] Preloader started
-[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
-[Info   :   BepInEx] Loaded 1 patcher method from [Tobey.BepInExMelonLoaderWizard 0.2.0.0]
-[Info   :   BepInEx] 2 patcher plugins loaded
-[Warning:  HarmonyX] AccessTools.Method: Could not find method for type System.IO.Directory and name ResolveLinkTarget and parameters (string, bool)
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.23.2]
+[Info   :   BepInEx] Loaded 1 patcher method from [Tobey.BepInEx.Timestamp 1.0.0.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [Tobey.BepInExMelonLoaderWizard 0.2.2.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [Tobey.MLLoader.GameInfo 1.0.1.0]
+[Info   :   BepInEx] 4 patcher plugins loaded
+[Message: Timestamp] It is currently Sun, 02 Feb 2025 04:08:53 GMT according to http://google.com
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 15 plugins to load
+[Info   :   BepInEx] 11 plugins to load
 [Info   :   BepInEx] Loading [BepInEx.MelonLoader.Loader.UnityMono 2.1.0]
+[Message:Tobey.MLLoader.GameInfo] Successfully patched MelonLoader game info.
 [Message:MelonLoader] ------------------------------
 [Message:MelonLoader] Game Name: Supermarket Simulator
 [Message:MelonLoader] Game Developer: Nokta Games
-[Message:MelonLoader] Unity Version: 2021.3.31f1
-[Message:MelonLoader] Game Version: UNKNOWN
+[Message:MelonLoader] Unity Version: 2022.3.38f1
+[Message:MelonLoader] Game Version: 0.5.1
 [Message:MelonLoader] ------------------------------
 [Message:MelonLoader] 
 [Message:MelonLoader] Preferences Loaded!
 [Message:MelonLoader] 
-[Message:MelonLoader] Loading Plugins from 'D:\Supermarket Simulator mod\Github\Für alle\MLLoader\Plugins'...
+[Message:MelonLoader] Loading Plugins from 'D:\Supermarket Simulator mod\Github\Für Onkel\MLLoader\Plugins'...
 [Message:MelonLoader] 0 Plugins loaded.
 [Message:MelonLoader] 
-[Message:MelonLoader] Loading Mods from 'D:\Supermarket Simulator mod\Github\Für alle\MLLoader\Mods'...
+[Message:MelonLoader] Loading Mods from 'D:\Supermarket Simulator mod\Github\Für Onkel\MLLoader\Mods'...
 [Message:MelonLoader] ------------------------------
-[Message:MelonLoader] Melon Assembly loaded: '.\Mods\AutoPriceUpdater.dll'
-[Message:MelonLoader] SHA256 Hash: 'adcaaf8de4640dd752a6001f86bb55c7939f8057c3ee61aff8a9a1240f5af284'
-[Message:MelonLoader] Melon Assembly loaded: '.\Mods\BetterSaveSystem.dll'
-[Message:MelonLoader] SHA256 Hash: '6866ab560d880b860f1087781afa1286052e12a210798ca3c57a2ec50108f0b3'
 [Message:MelonLoader] Melon Assembly loaded: '.\Mods\CheckoutTheme.dll'
-[Message:MelonLoader] SHA256 Hash: '9fbf9f948e875b9551e736dd2a5f6e249a530f59d81a277870c3bb14c8f417ba'
-[Message:MelonLoader] Melon Assembly loaded: '.\Mods\DeliveryOrganizer.dll'
-[Message:MelonLoader] SHA256 Hash: '43328ae4a57091125827d51348d5e3c3788fc5ca6c9a18a1e102986b340d9ad7'
-[Message:MelonLoader] Melon Assembly loaded: '.\Mods\EZDelivery.dll'
-[Message:MelonLoader] SHA256 Hash: '1da7b262061161200b0b3fdb02d3c2698e45a730a236bf5da7fc5221a0d78e54'
-[Message:MelonLoader] Melon Assembly loaded: '.\Mods\PauseRestockers.dll'
-[Message:MelonLoader] SHA256 Hash: '72cfed2837d711d57a27180feb3fe2936313048834ff42f14689f9a8dc0c0f86'
-[Message:MelonLoader] Melon Assembly loaded: '.\Mods\Refill.dll'
-[Message:MelonLoader] SHA256 Hash: '8de37ded8b7ebf7630c445c4c39578e3ce4a3c3fa3884cf2b419d0b8d312c567'
-[Message:MelonLoader] Melon Assembly loaded: '.\Mods\SMS_PalletsDisplay.dll'
-[Message:MelonLoader] SHA256 Hash: 'a48b68999253d40e3a1614bef404a89a4d4098843bc3f0856f1494ce0632d41a'
-[Message:MelonLoader] Melon Assembly loaded: '.\Mods\StoreCustomizer.dll'
-[Message:MelonLoader] SHA256 Hash: '202006072a4caae195b3c49f256f18815dfc764171a117fd92d288020a1b5cbd'
+[Message:MelonLoader] SHA256 Hash: 'b3fe1304d405c7311343db118644789dfbece6aa3de966be3b2a510ec4c85fa7'
 [Message:MelonLoader] 
 [Message:MelonLoader] ------------------------------
-[Message:MelonLoader] AutoPriceUpdater v0.1.1 by DIASILEDU []
-[Message:MelonLoader] Assembly: AutoPriceUpdater.dll
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] Better Save System v1.0.0 by iSoq []
-[Message:MelonLoader] Assembly: BetterSaveSystem.dll
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] Checkout Theme v1.2.1 by Morabis []
+[Message:MelonLoader] Checkout Theme v1.2.2 by Morabis []
 [Message:MelonLoader] Assembly: CheckoutTheme.dll
 [Message:MelonLoader] ------------------------------
 [Message:MelonLoader] ------------------------------
-[Message:MelonLoader] DeliveryOrganizer v0.0.3 by DIASILEDU []
-[Message:MelonLoader] Assembly: DeliveryOrganizer.dll
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] EZ Delivery v1.5.2 by WaffDev []
-[Message:MelonLoader] Assembly: EZDelivery.dll
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] PauseRestockers v1.0.1 by AlconH []
-[Message:MelonLoader] Assembly: PauseRestockers.dll
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] [Refill_Storage] OnEarlyInitializeMelon: Refill Storage
-[Message:MelonLoader] [Refill_Storage] OnSceneWasLoaded:Caricamento custom assets
-[Message:MelonLoader] [Refill_Storage] OnSceneWasLoaded:Assets 1 of 2
-[Message:MelonLoader] [Refill_Storage] OnSceneWasLoaded:Assets 2 of 2
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] Refill Storage v1.1.2 by Alrikh []
-[Message:MelonLoader] Assembly: Refill.dll
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] Pallets Display v1.0.0 by iSoq []
-[Message:MelonLoader] Assembly: SMS_PalletsDisplay.dll
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] Store Customizer v1.1.3 by iSoq []
-[Message:MelonLoader] Assembly: StoreCustomizer.dll
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] ------------------------------
-[Message:MelonLoader] 9 Mods loaded.
+[Message:MelonLoader] 1 Mod loaded.
 [Message:MelonLoader] 
-[Message:MelonLoader] Support Module Loaded: D:\Supermarket Simulator mod\Github\Für alle\MLLoader\MelonLoader\Dependencies\SupportModules\Mono.dll
+[Message:MelonLoader] Support Module Loaded: D:\Supermarket Simulator mod\Github\Für Onkel\MLLoader\MelonLoader\Dependencies\SupportModules\Mono.dll
 [Info   : Unity Log] -------------------------------------------------------------------------------------------------------
 [Info   : Unity Log] ~   This Game has been MODIFIED using MelonLoader. DO NOT report any issues to the Game Developers!   ~
 [Info   : Unity Log] -------------------------------------------------------------------------------------------------------
-[Message:MelonLoader] [AutoPriceUpdater] MelonPreferences Loaded from D:\Supermarket Simulator mod\Github\Für alle\MLLoader\UserData\PriceUpdater.cfg
-[Message:MelonLoader] [Better_Save_System] Version: 1.0.0
-[Message:MelonLoader] [Better_Save_System] BSM assets loaded
 [Message:MelonLoader] [Checkout_Theme] MelonPreferences Loaded from MLLoader/UserData/checkouttheme.cfg
-[Message:MelonLoader] [DeliveryOrganizer] DeliveryOrganizerMod has been loaded!
-[Message:MelonLoader] [EZ_Delivery] Preferences Saved!
-[Message:MelonLoader] [Store_Customizer] StoreCustomizationMod started
-[Message:MelonLoader] MelonPreferences Loaded from D:\Supermarket Simulator mod\Github\Für alle\MLLoader\UserData\store_customizer.cfg
-[Message:MelonLoader] [Store_Customizer] MelonPreferences Loaded from D:\Supermarket Simulator mod\Github\Für alle\MLLoader\UserData\store_customizer.cfg
-[Message:MelonLoader] [Store_Customizer] StoreCustomizer assets loaded
-[Info   :   BepInEx] Loading [ChangeCurrency 2.1.2]
+[Info   :   BepInEx] Loading [Better Save System Revived 2.0.1]
+[Info   :   BepInEx] Loading [ChangeCurrency 2.3.2]
 [Info   :ChangeCurrency] Plugin ChangeCurrency is loaded! Applying patch...
-[Info   :ChangeCurrency] Working directory: D:\Supermarket Simulator mod\Github\Für alle
+[Info   :ChangeCurrency] Working directory: D:\Supermarket Simulator mod\Github\Für Onkel
 [Info   :ChangeCurrency] Currency String: 3
-[Info   :   BepInEx] Loading [EasyScan 1.0.1]
-[Info   :  EasyScan] Plugin EasyScan is loaded! Applying patch...
-[Info   :   BepInEx] Loading [NarrowRack 1.2.0]
-[Info   :NarrowRack] Plugin NarrowRack is loaded!
-[Info   :   BepInEx] Loading [NarrowShelf 1.0.0]
-[Info   :NarrowShelf] Plugin NarrowShelf is loaded!
-[Info   :   BepInEx] Loading [PortableScanner 1.1.2]
-[Info   :   BepInEx] Loading [ResizableLabels 1.0.0]
-[Info   :ResizableLabels] Plugin ResizableLabels is loaded!
-[Info   :   BepInEx] Loading [MoveTrashBin 1.0.0]
+[Info   :   BepInEx] Loading [ChangeCurrency Product Price Changer 2.3.2]
+[Info   :   BepInEx] Loading [AutoPriceUpdater 1.2.0]
+[Info   :AutoPriceUpdater] Plugin AutoPriceUpdater is loaded!
+[Info   :   BepInEx] Loading [MoveTrashBin 1.0.2]
+[Info   :   BepInEx] Loading [NPCsCustomNames 1.1.0]
 [Info   :   BepInEx] Loading [SoundReplacer 1.0.0]
-[Info   :   BepInEx] Loading [TextureReplacer 1.1.1]
-[Info   :   BepInEx] Loading [SmartPocketBoxes 1.3.4]
-[Info   :   BepInEx] Loading [File Tree 1.0.0]
-[Info   :   BepInEx] Loading [TwitchIntegration 1.3.1]
-[Info   :TwitchIntegration] [TWITCH] Loading TwitchIntegration v1.3.1 Plugin...
-[Info   :TwitchIntegration] [TWITCH] Initialize Command Manager...
-[Info   :TwitchIntegration] [TWITCH] Initialized Command Manager!
-[Info   :TwitchIntegration] [TWITCH] Initializing TwitchIntegration config...
-[Info   :TwitchIntegration] [TWITCH] Initializing TwitchIntegration config completed!
-[Info   :TwitchIntegration] [TWITCH] Loading TwitchIntegration localization file...
-[Info   :TwitchIntegration] [TWITCH] TwitchIntegration localization file loaded!
-[Info   :TwitchIntegration] [TWITCH] Using language: en
-[Info   :TwitchIntegration] [TWITCH] Getting cheer emotes...
+[Info   :   BepInEx] Loading [TextureReplacer 1.2.2]
+[Info   :   BepInEx] Loading [File Tree 1.0.1]
 [Info   :   BepInEx] Loading [UnrestrictedPlacement 1.0.0]
 [Info   :UnrestrictedPlacement] Plugin UnrestrictedPlacement is loaded! Applying patch...
-[Info   :   BepInEx] Loading [VisibleScannerExtension 1.0.0]
-[Info   :VisibleScannerExtension] Plugin VisibleScannerExtension is loaded! Applying patch...
-[Info   :VisibleScannerExtension] Texture Loaded.
+[Warning:  HarmonyX] AccessTools.DeclaredMethod: Could not find method for type IPlacingMode and name OnTriggerEnter and parameters 
+[Error  : Unity Log] ArgumentException: Undefined target method for patch method static void UnrestrictedPlacement.UnrestrictedPlacementPatch+IPlacingMode_OnTriggerEnter_Patch::Postfix(IPlacingMode __instance)
+Stack trace:
+HarmonyLib.PatchClassProcessor.PatchWithAttributes (System.Reflection.MethodBase& lastOriginal) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+HarmonyLib.PatchClassProcessor.Patch () (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+Rethrow as HarmonyException: Patching exception in method null
+HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+HarmonyLib.PatchClassProcessor.Patch () (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+HarmonyLib.Harmony.<PatchAll>b__11_0 (System.Type type) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+HarmonyLib.Harmony.PatchAll () (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
+UnrestrictedPlacement.Plugin.Awake () (at <470805b407124d958120bb793e874ab2>:0)
+UnityEngine.GameObject:AddComponent(Type)
+BepInEx.Bootstrap.Chainloader:Start()
+UnityEngine.InputSystem.InputSystem:.cctor()
+
 [Message:   BepInEx] Chainloader startup complete
-[Info   : Unity Log] SaveManagerAwakePatch: CurrentSaveFilePath=
-[Message:MelonLoader] [Better_Save_System] Main Menu
-[Message:MelonLoader] [Better_Save_System] Main Menu loaded
-[Message:MelonLoader] [Better_Save_System] Approved New Game Window found
-[Message:MelonLoader] [Better_Save_System] Create Save Window
-[Message:MelonLoader] [Store_Customizer] [StoreCustomizer] OnSceneWasLoaded: Main Menu
-[Info   :TwitchIntegration] [TWITCH] Active Scene: Main Menu
-[Message:MelonLoader] [Pallets_Display] Melon Registered: AutoPriceUpdater, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[Message:MelonLoader] [Pallets_Display] Melon Registered: BetterSaveSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[Message:MelonLoader] [Pallets_Display] Melon Registered: CashRegisterDarkTheme, Version=1.2.1.0, Culture=neutral, PublicKeyToken=null
-[Message:MelonLoader] [Pallets_Display] Melon Registered: DeliveryOrganizer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[Message:MelonLoader] [Pallets_Display] Melon Registered: EZDelivery, Version=1.5.2.0, Culture=neutral, PublicKeyToken=null
-[Message:MelonLoader] [Pallets_Display] Melon Registered: PauseRestockers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[Message:MelonLoader] [Pallets_Display] Melon Registered: Refill, Version=1.1.2.0, Culture=neutral, PublicKeyToken=null
-[Message:MelonLoader] [Pallets_Display] Melon Registered: SMS_PalletsDisplay, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[Message:MelonLoader] [Pallets_Display] Melon Registered: StoreCustomizer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-[Message:MelonLoader] [Pallets_Display] BepInEx.MelonLoader.Loader.UnityMono
-[Message:MelonLoader] [Pallets_Display] ChangeCurrency
-[Message:MelonLoader] [Pallets_Display] EasyScan
-[Message:MelonLoader] [Pallets_Display] NarrowRack
-[Message:MelonLoader] [Pallets_Display] NarrowShelf
-[Message:MelonLoader] [Pallets_Display] PortableScanner
-[Message:MelonLoader] [Pallets_Display] ResizableLabels
-[Message:MelonLoader] [Pallets_Display] MoveTrashBin
-[Message:MelonLoader] [Pallets_Display] SoundReplacer
-[Message:MelonLoader] [Pallets_Display] TextureReplacer
-[Message:MelonLoader] [Pallets_Display] SmartPocketBoxes
-[Message:MelonLoader] [Pallets_Display] File Tree
-[Message:MelonLoader] [Pallets_Display] TwitchIntegration
-[Message:MelonLoader] [Pallets_Display] UnrestrictedPlacement
-[Message:MelonLoader] [Pallets_Display] VisibleScannerExtension
-[Message: File Tree] D:\Supermarket Simulator mod\Github\Für alle
+[Message: File Tree] D:\Supermarket Simulator mod\Github\Für Onkel
 [Message: File Tree] |
 [Message: File Tree] |-- .git
 [Message: File Tree] |   |
@@ -179,8 +89,8 @@
 [Message: File Tree] |   |
 [Message: File Tree] |   |-- cache
 [Message: File Tree] |   |   |
-[Message: File Tree] |   |   |-- chainloader_typeloader.dat [3,52 KB]
-[Message: File Tree] |   |   \-- harmony_interop_cache.dat [7,1 KB]
+[Message: File Tree] |   |   |-- chainloader_typeloader.dat [3,54 KB]
+[Message: File Tree] |   |   \-- harmony_interop_cache.dat [10,62 KB]
 [Message: File Tree] |   |
 [Message: File Tree] |   |-- config
 [Message: File Tree] |   |   |
@@ -193,17 +103,21 @@
 [Message: File Tree] |   |   |
 [Message: File Tree] |   |   |-- BepInEx.cfg [5,43 KB]
 [Message: File Tree] |   |   |-- BepInEx.MelonLoader.Loader.UnityMono.cfg [2,51 KB]
-[Message: File Tree] |   |   |-- ChangeCurrency.cfg [13,17 KB]
+[Message: File Tree] |   |   |-- BetterSaveSystemRevived.cfg [832 B]
+[Message: File Tree] |   |   |-- ChangeCurrency.cfg [13,65 KB]
+[Message: File Tree] |   |   |-- ChangeCurrency.ProductPrices.cfg [4,49 KB]
+[Message: File Tree] |   |   |-- com.dsld.autopriceupdater.cfg [1,55 KB]
 [Message: File Tree] |   |   |-- EasyScan.cfg [204 B]
 [Message: File Tree] |   |   |-- PortableScanner.cfg [4,78 KB]
 [Message: File Tree] |   |   |-- QuieterCars.cfg [239 B]
 [Message: File Tree] |   |   |-- ResizableLabels.cfg [605 B]
-[Message: File Tree] |   |   |-- shaklin.MoveTrashBin.cfg [13,69 KB]
-[Message: File Tree] |   |   |-- shaklin.NPCsCustomNames.cfg [2,36 KB]
+[Message: File Tree] |   |   |-- shaklin.MoveTrashBin.cfg [13,86 KB]
+[Message: File Tree] |   |   |-- shaklin.NPCsCustomNames.cfg [10,99 KB]
 [Message: File Tree] |   |   |-- shaklin.SoundReplacer.cfg [201 B]
-[Message: File Tree] |   |   |-- shaklin.TextureReplacer.cfg [205 B]
+[Message: File Tree] |   |   |-- shaklin.TextureReplacer.cfg [9,23 KB]
 [Message: File Tree] |   |   |-- SmartPocketBoxes.cfg [1022 B]
-[Message: File Tree] |   |   |-- Tobey.FileTree.cfg [406 B]
+[Message: File Tree] |   |   |-- Tobey.BepInEx.Timestamp.cfg [492 B]
+[Message: File Tree] |   |   |-- Tobey.FileTree.cfg [415 B]
 [Message: File Tree] |   |   |-- TwitchIntegration.cfg [10,08 KB]
 [Message: File Tree] |   |   |-- UnrestrictedPlacement.cfg [4,61 KB]
 [Message: File Tree] |   |   \-- VisibleScannerExtension.cfg [811 B]
@@ -217,7 +131,7 @@
 [Message: File Tree] |   |   |-- BepInEx.Harmony.dll [5,5 KB]
 [Message: File Tree] |   |   |-- BepInEx.Harmony.xml [3,96 KB]
 [Message: File Tree] |   |   |-- BepInEx.Preloader.dll [41,5 KB]
-[Message: File Tree] |   |   |-- BepInEx.Preloader.xml [7,79 KB]
+[Message: File Tree] |   |   |-- BepInEx.Preloader.xml [7,78 KB]
 [Message: File Tree] |   |   |-- BepInEx.xml [87,73 KB]
 [Message: File Tree] |   |   |-- HarmonyXInterop.dll [23 KB]
 [Message: File Tree] |   |   |-- Mono.Cecil.dll [331,5 KB]
@@ -233,14 +147,210 @@
 [Message: File Tree] |   |   |
 [Message: File Tree] |   |   \-- Tobey
 [Message: File Tree] |   |       |
-[Message: File Tree] |   |       |-- Tobey.BepInExMelonLoaderWizard.dll [28 KB]
-[Message: File Tree] |   |       \-- Tobey.BepInExMelonLoaderWizard.MLDisabler.exe [10,56 MB]
+[Message: File Tree] |   |       |-- Tobey.BepInEx.Timestamp.dll [7,5 KB]
+[Message: File Tree] |   |       |-- Tobey.BepInExMelonLoaderWizard.dll [29 KB]
+[Message: File Tree] |   |       |-- Tobey.BepInExMelonLoaderWizard.MLDisabler.exe [10,57 MB]
+[Message: File Tree] |   |       \-- Tobey.MLLoader.GameInfo.dll [8,5 KB]
 [Message: File Tree] |   |
 [Message: File Tree] |   |-- plugins
 [Message: File Tree] |   |   |
-[Message: File Tree] |   |   \-- (contents not shown)
+[Message: File Tree] |   |   |-- BepInEx.MelonLoader.Loader
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- AssetRipper.VersionUtilities.dll [17,5 KB]
+[Message: File Tree] |   |   |   |-- AssetsTools.NET.dll [214 KB]
+[Message: File Tree] |   |   |   |-- BepInEx.MelonLoader.Loader.UnityMono.dll [6 KB]
+[Message: File Tree] |   |   |   |-- bHapticsLib.dll [47,5 KB]
+[Message: File Tree] |   |   |   |-- MelonLoader.dll [676 KB]
+[Message: File Tree] |   |   |   |-- Tomlet.dll [90 KB]
+[Message: File Tree] |   |   |   \-- WebSocketDotNet.dll [36 KB]
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- MoveTrashBin
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- data
+[Message: File Tree] |   |   |   |   |
+[Message: File Tree] |   |   |   |   \-- trashbin.json [177 B]
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   \-- MoveTrashBin.dll [10,5 KB]
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- NPCsCustomNames
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- data
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- NPCsCustomNames.dll [72,5 KB]
+[Message: File Tree] |   |   |   |-- NPCsCustomNames_List.txt [1,07 KB]
+[Message: File Tree] |   |   |   |-- NPCsCustomNames_List_Female.txt [0 b]
+[Message: File Tree] |   |   |   |-- NPCsCustomNames_List_Male.txt [0 b]
+[Message: File Tree] |   |   |   \-- NPCsCustomNames_Text.txt [109 B]
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- SoundReplacer
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- sounds
+[Message: File Tree] |   |   |   |   |
+[Message: File Tree] |   |   |   |   |-- Background SFX.ogg [6,99 MB]
+[Message: File Tree] |   |   |   |   |-- Car Engine.ogg [296,26 KB]
+[Message: File Tree] |   |   |   |   |-- Cash Register Close.ogg [12,95 KB]
+[Message: File Tree] |   |   |   |   |-- Cash Register Open.ogg [13,33 KB]
+[Message: File Tree] |   |   |   |   |-- Checkout SFX.ogg [52,34 KB]
+[Message: File Tree] |   |   |   |   |-- Checkout Warning SFX.ogg [15,59 KB]
+[Message: File Tree] |   |   |   |   |-- Coin SFX.ogg [9,29 KB]
+[Message: File Tree] |   |   |   |   |-- Dropping Box SFX.ogg [6,12 KB]
+[Message: File Tree] |   |   |   |   |-- Main Menu Music.ogg [1,76 MB]
+[Message: File Tree] |   |   |   |   |-- Money paper SFX.ogg [7,26 KB]
+[Message: File Tree] |   |   |   |   |-- MouseClick.ogg [4,91 KB]
+[Message: File Tree] |   |   |   |   |-- Picking Up Box SFX.ogg [6,64 KB]
+[Message: File Tree] |   |   |   |   |-- Placing Products SFX.ogg [6,09 KB]
+[Message: File Tree] |   |   |   |   |-- Scanning Product.ogg [6,34 KB]
+[Message: File Tree] |   |   |   |   |-- Switch Off.ogg [4,69 KB]
+[Message: File Tree] |   |   |   |   \-- Switch On.ogg [4,53 KB]
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- sounds - Kopie
+[Message: File Tree] |   |   |   |   |
+[Message: File Tree] |   |   |   |   |-- Background SFX.ogg [6,99 MB]
+[Message: File Tree] |   |   |   |   |-- Car Engine.ogg [134,56 KB]
+[Message: File Tree] |   |   |   |   |-- Cash Register Close.ogg [12,95 KB]
+[Message: File Tree] |   |   |   |   |-- Cash Register Open.ogg [13,33 KB]
+[Message: File Tree] |   |   |   |   |-- Checkout SFX.ogg [52,34 KB]
+[Message: File Tree] |   |   |   |   |-- Checkout Warning SFX.ogg [15,59 KB]
+[Message: File Tree] |   |   |   |   |-- Coin SFX.ogg [9,29 KB]
+[Message: File Tree] |   |   |   |   |-- Dropping Box SFX.ogg [6,12 KB]
+[Message: File Tree] |   |   |   |   |-- Main Menu Music.ogg [855,56 KB]
+[Message: File Tree] |   |   |   |   |-- Money paper SFX.ogg [7,26 KB]
+[Message: File Tree] |   |   |   |   |-- MouseClick.ogg [4,91 KB]
+[Message: File Tree] |   |   |   |   |-- Picking Up Box SFX.ogg [6,64 KB]
+[Message: File Tree] |   |   |   |   |-- Placing Products SFX.ogg [6,09 KB]
+[Message: File Tree] |   |   |   |   |-- Scanning Product.ogg [6,34 KB]
+[Message: File Tree] |   |   |   |   |-- Switch Off.ogg [4,69 KB]
+[Message: File Tree] |   |   |   |   \-- Switch On.ogg [4,53 KB]
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   \-- SoundReplacer.dll [10 KB]
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- TextureReplacer
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- objects_meshes
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- objects_textures
+[Message: File Tree] |   |   |   |   |
+[Message: File Tree] |   |   |   |   |-- pc
+[Message: File Tree] |   |   |   |   |   |
+[Message: File Tree] |   |   |   |   |   |-- Bank.png [397 B]
+[Message: File Tree] |   |   |   |   |   |-- Bank.txt [23 B]
+[Message: File Tree] |   |   |   |   |   |-- Bank_bg.png [14,59 KB]
+[Message: File Tree] |   |   |   |   |   |-- Desktop Background 3.png [54,75 KB]
+[Message: File Tree] |   |   |   |   |   |-- Desktop Background 3.txt [24 B]
+[Message: File Tree] |   |   |   |   |   |-- eCommerce.png [397 B]
+[Message: File Tree] |   |   |   |   |   |-- eCommerce.txt [23 B]
+[Message: File Tree] |   |   |   |   |   |-- eCommerce_bg.png [11,88 KB]
+[Message: File Tree] |   |   |   |   |   |-- Frame_BarFrame_Bottom02_Navy.txt [6 B]
+[Message: File Tree] |   |   |   |   |   |-- Frame_BarFrame_Top02_Navy.png [867 B]
+[Message: File Tree] |   |   |   |   |   |-- Icon_MenuIcon01_Menu_s.png [3,08 KB]
+[Message: File Tree] |   |   |   |   |   |-- Icon_PictoIcon_Search.png [3,87 KB]
+[Message: File Tree] |   |   |   |   |   |-- Icon_PictoIcon_Sound_on.png [5,53 KB]
+[Message: File Tree] |   |   |   |   |   |-- Icon_PictoIcon_Wifi.png [3,9 KB]
+[Message: File Tree] |   |   |   |   |   |-- Management.png [397 B]
+[Message: File Tree] |   |   |   |   |   |-- Management.txt [23 B]
+[Message: File Tree] |   |   |   |   |   |-- Management_bg.png [16,08 KB]
+[Message: File Tree] |   |   |   |   |   |-- StorageExpansion.png [397 B]
+[Message: File Tree] |   |   |   |   |   |-- StorageExpansion.txt [23 B]
+[Message: File Tree] |   |   |   |   |   |-- StorageExpansion_bg.png [7,6 KB]
+[Message: File Tree] |   |   |   |   |   |-- StoreCustomizer.png [397 B]
+[Message: File Tree] |   |   |   |   |   |-- StoreCustomizer.txt [23 B]
+[Message: File Tree] |   |   |   |   |   |-- StoreCustomizer_bg.png [16,02 KB]
+[Message: File Tree] |   |   |   |   |   |-- Wholesale Market.png [397 B]
+[Message: File Tree] |   |   |   |   |   |-- Wholesale Market.txt [23 B]
+[Message: File Tree] |   |   |   |   |   |-- Wholesale Market_bg.png [16,12 KB]
+[Message: File Tree] |   |   |   |   |   \-- _FONTSLIST.txt [81 B]
+[Message: File Tree] |   |   |   |   |
+[Message: File Tree] |   |   |   |   |-- Wand
+[Message: File Tree] |   |   |   |   |   |
+[Message: File Tree] |   |   |   |   |   |-- Interior_Door_A.png [1011,39 KB]
+[Message: File Tree] |   |   |   |   |   \-- Wallpaper_01_A.png [2,44 MB]
+[Message: File Tree] |   |   |   |   |
+[Message: File Tree] |   |   |   |   \-- ChocolatBox_b94wj0_a.png [123,97 KB]
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- products_icons
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- products_names
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   |-- _templates
+[Message: File Tree] |   |   |   |   |
+[Message: File Tree] |   |   |   |   \-- texturen
+[Message: File Tree] |   |   |   |       |
+[Message: File Tree] |   |   |   |       |-- BernerGamerTV
+[Message: File Tree] |   |   |   |       |   |
+[Message: File Tree] |   |   |   |       |   |-- 1
+[Message: File Tree] |   |   |   |       |   |   |
+[Message: File Tree] |   |   |   |       |   |   \-- Wallpaper_01_A.png [2,77 MB]
+[Message: File Tree] |   |   |   |       |   |
+[Message: File Tree] |   |   |   |       |   \-- 2
+[Message: File Tree] |   |   |   |       |       |
+[Message: File Tree] |   |   |   |       |       \-- Wallpaper_01_A.png [506,86 KB]
+[Message: File Tree] |   |   |   |       |
+[Message: File Tree] |   |   |   |       |-- DerOnkel
+[Message: File Tree] |   |   |   |       |   |
+[Message: File Tree] |   |   |   |       |   |-- onkel
+[Message: File Tree] |   |   |   |       |   |   |
+[Message: File Tree] |   |   |   |       |   |   |-- Bank.png [397 B]
+[Message: File Tree] |   |   |   |       |   |   |-- Bank.txt [23 B]
+[Message: File Tree] |   |   |   |       |   |   |-- Bank_bg.png [13,8 KB]
+[Message: File Tree] |   |   |   |       |   |   |-- Desktop Background 3.png [54,75 KB]
+[Message: File Tree] |   |   |   |       |   |   |-- Desktop Background 3.txt [24 B]
+[Message: File Tree] |   |   |   |       |   |   |-- eCommerce.png [397 B]
+[Message: File Tree] |   |   |   |       |   |   |-- eCommerce.txt [23 B]
+[Message: File Tree] |   |   |   |       |   |   |-- eCommerce_bg.png [29,99 KB]
+[Message: File Tree] |   |   |   |       |   |   |-- Frame_BarFrame_Bottom02_Navy.txt [6 B]
+[Message: File Tree] |   |   |   |       |   |   |-- Frame_BarFrame_Top02_Navy.png [867 B]
+[Message: File Tree] |   |   |   |       |   |   |-- Icon_MenuIcon01_Menu_s.png [7,31 KB]
+[Message: File Tree] |   |   |   |       |   |   |-- Icon_PictoIcon_Search.png [7,31 KB]
+[Message: File Tree] |   |   |   |       |   |   |-- Icon_PictoIcon_Sound_on.png [7,12 KB]
+[Message: File Tree] |   |   |   |       |   |   |-- Icon_PictoIcon_Wifi.png [5,7 KB]
+[Message: File Tree] |   |   |   |       |   |   |-- Management.png [397 B]
+[Message: File Tree] |   |   |   |       |   |   |-- Management.txt [23 B]
+[Message: File Tree] |   |   |   |       |   |   |-- Management_bg.png [22,78 KB]
+[Message: File Tree] |   |   |   |       |   |   |-- StorageExpansion.png [397 B]
+[Message: File Tree] |   |   |   |       |   |   |-- StorageExpansion.txt [23 B]
+[Message: File Tree] |   |   |   |       |   |   |-- StorageExpansion_bg.png [20,8 KB]
+[Message: File Tree] |   |   |   |       |   |   |-- StoreCustomizer.png [397 B]
+[Message: File Tree] |   |   |   |       |   |   |-- StoreCustomizer.txt [23 B]
+[Message: File Tree] |   |   |   |       |   |   |-- StoreCustomizer_bg.png [18,56 KB]
+[Message: File Tree] |   |   |   |       |   |   |-- Wholesale Market.png [397 B]
+[Message: File Tree] |   |   |   |       |   |   |-- Wholesale Market.txt [23 B]
+[Message: File Tree] |   |   |   |       |   |   |-- Wholesale Market_bg.png [10,43 KB]
+[Message: File Tree] |   |   |   |       |   |   \-- _FONTSLIST.txt [81 B]
+[Message: File Tree] |   |   |   |       |   |
+[Message: File Tree] |   |   |   |       |   |-- ChocolatBox_b94wj0_a.png [123,97 KB]
+[Message: File Tree] |   |   |   |       |   \-- Wallpaper_01_A.png [2,44 MB]
+[Message: File Tree] |   |   |   |       |
+[Message: File Tree] |   |   |   |       |-- Kasse Blau
+[Message: File Tree] |   |   |   |       |   |
+[Message: File Tree] |   |   |   |       |   |-- base.txt [6 B]
+[Message: File Tree] |   |   |   |       |   |-- conveyor_belt.txt [6 B]
+[Message: File Tree] |   |   |   |       |   |-- edge_inside.txt [6 B]
+[Message: File Tree] |   |   |   |       |   |-- edge_outside.txt [6 B]
+[Message: File Tree] |   |   |   |       |   |-- Monitor.txt [6 B]
+[Message: File Tree] |   |   |   |       |   \-- white.txt [6 B]
+[Message: File Tree] |   |   |   |       |
+[Message: File Tree] |   |   |   |       |-- S04
+[Message: File Tree] |   |   |   |       |   |
+[Message: File Tree] |   |   |   |       |   \-- Wallpaper_01_A.png [3,92 MB]
+[Message: File Tree] |   |   |   |       |
+[Message: File Tree] |   |   |   |       \-- standart
+[Message: File Tree] |   |   |   |           |
+[Message: File Tree] |   |   |   |           \-- Wallpaper_01_A.png [2,28 MB]
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   \-- TextureReplacer.dll [61,5 KB]
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- Tobey
+[Message: File Tree] |   |   |   |
+[Message: File Tree] |   |   |   \-- File Tree
+[Message: File Tree] |   |   |       |
+[Message: File Tree] |   |   |       \-- Tobey.FileTree.dll [24 KB]
+[Message: File Tree] |   |   |
+[Message: File Tree] |   |   |-- AutoPriceUpdater.dll [16 KB]
+[Message: File Tree] |   |   |-- BetterSaveSystemRevived.dll [509,5 KB]
+[Message: File Tree] |   |   |-- ChangeCurrency.dll [34,09 MB]
+[Message: File Tree] |   |   \-- UnrestrictedPlacement.dll [7,5 KB]
 [Message: File Tree] |   |
-[Message: File Tree] |   \-- LogOutput.log [13,64 KB]
+[Message: File Tree] |   \-- LogOutput.log [21,52 KB]
 [Message: File Tree] |
 [Message: File Tree] |-- MLLoader
 [Message: File Tree] |   |
@@ -270,19 +380,9 @@
 [Message: File Tree] |   |
 [Message: File Tree] |   |-- Mods
 [Message: File Tree] |   |   |
-[Message: File Tree] |   |   |-- AutoPriceUpdater.dll [14,5 KB]
-[Message: File Tree] |   |   |-- BetterSaveSystem.dll [412 KB]
-[Message: File Tree] |   |   |-- CheckoutTheme.dll [14 KB]
-[Message: File Tree] |   |   |-- DeliveryOrganizer.dll [11 KB]
-[Message: File Tree] |   |   |-- EZDelivery.dll [15 KB]
-[Message: File Tree] |   |   |-- PauseRestockers.dll [5,5 KB]
-[Message: File Tree] |   |   |-- Refill.dll [58 KB]
-[Message: File Tree] |   |   |-- SMS_PalletsDisplay.dll [6,35 MB]
-[Message: File Tree] |   |   \-- StoreCustomizer.dll [473,5 KB]
+[Message: File Tree] |   |   \-- CheckoutTheme.dll [14,5 KB]
 [Message: File Tree] |   |
 [Message: File Tree] |   |-- Plugins
-[Message: File Tree] |   |   |
-[Message: File Tree] |   |   \-- (contents not shown)
 [Message: File Tree] |   |
 [Message: File Tree] |   |-- UserData
 [Message: File Tree] |   |   |
@@ -300,7 +400,7 @@
 [Message: File Tree] |
 [Message: File Tree] |-- Plugins
 [Message: File Tree] |   |
-[Message: File Tree] |   \-- (contents not shown)
+[Message: File Tree] |   \-- Tobey.BepInExMelonLoaderWizard.MLPlugin.dll [27,5 KB]
 [Message: File Tree] |
 [Message: File Tree] |-- README
 [Message: File Tree] |   |
@@ -324,330 +424,310 @@
 [Message: File Tree] |
 [Message: File Tree] |-- !mods-remove-plus-cfg.bat [2,06 KB]
 [Message: File Tree] |-- !mods-remove.bat [2,4 KB]
-[Message: File Tree] |-- !mods-update.bat [3,64 KB]
+[Message: File Tree] |-- !mods-update.bat [2,49 KB]
 [Message: File Tree] |-- !savegame-supermarket.bat [1,31 KB]
 [Message: File Tree] |-- !Wiki.bat [1,32 KB]
+[Message: File Tree] |-- .doorstop_version [5 B]
 [Message: File Tree] |-- .gitattributes [66 B]
 [Message: File Tree] |-- .gitignore [706 B]
-[Message: File Tree] |-- doorstop_config.ini [891 B]
-[Message: File Tree] |-- dxgi.dll [4,34 MB]
+[Message: File Tree] |-- changelog.txt [170 B]
+[Message: File Tree] |-- doorstop_config.ini [1,43 KB]
+[Message: File Tree] |-- dxgi.dll [4,33 MB]
 [Message: File Tree] |-- HarmonyLog.txt [0 b]
 [Message: File Tree] |-- LICENSE [1,06 KB]
 [Message: File Tree] |-- NPCsCustomNames 1.0.2-116-1-0-2-1713486861.zip [15,26 KB]
 [Message: File Tree] |-- README.md [4,8 KB]
-[Message: File Tree] |-- ReShade.ini [2,77 KB]
-[Message: File Tree] |-- ReShade.log [8,97 KB]
+[Message: File Tree] |-- ReShade.ini [2,82 KB]
+[Message: File Tree] |-- ReShade.log [188,44 KB]
 [Message: File Tree] |-- ReShadePreset.ini [0 b]
-[Message: File Tree] |-- Supermarket Simulator.exe [638,5 KB]
-[Message: File Tree] |-- UnityCrashHandler64.exe [1,07 MB]
-[Message: File Tree] |-- UnityPlayer.dll [28,09 MB]
-[Message: File Tree] |-- version.dll [24,5 KB]
-[Message: File Tree] \-- winhttp.dll [24,5 KB]
+[Message: File Tree] |-- Supermarket Simulator 2024-05-01 00-14-49.png [4,54 MB]
+[Message: File Tree] |-- Supermarket Simulator 2024-05-01 00-15-04.png [4,38 MB]
+[Message: File Tree] |-- Supermarket Simulator.exe [651 KB]
+[Message: File Tree] |-- UnityCrashHandler64.exe [1,06 MB]
+[Message: File Tree] |-- UnityPlayer.dll [29,54 MB]
+[Message: File Tree] |-- version.dll [25,5 KB]
+[Message: File Tree] \-- winhttp.dll [25,5 KB]
+[Info   : Unity Log] NPCsCustomNames: Added lines from NPCsCustomNames_Text.txt
+[Info   : Unity Log] NPCsCustomNames: List created from matching files!
+[Info   : Unity Log] NPCsCustomNames: Added names from NPCsCustomNames_List.txt
+[Info   : Unity Log] NPCsCustomNames: Added names from NPCsCustomNames_List_Female.txt
+[Info   : Unity Log] NPCsCustomNames: Added names from NPCsCustomNames_List_Male.txt
+[Info   : Unity Log] NPCsCustomNames: List created from matching files!
+[Info   : Unity Log] NPCsCustomNames: Added names from NPCsCustomNames_List_Female.txt
+[Info   : Unity Log] NPCsCustomNames: List created from matching files!
+[Info   : Unity Log] NPCsCustomNames: Added names from NPCsCustomNames_List_Male.txt
+[Info   : Unity Log] NPCsCustomNames: List created from matching files!
 [Info   : Unity Log] Custom Sounds loaded!
 [Info   : Unity Log] Custom 3D Objects loaded!
 [Info   : Unity Log] Custom Textures loaded!
-[Info   :TwitchIntegration] [TWITCH] 35 Cheer emotes collected!
-[Info   :TwitchIntegration] [TWITCH] Getting profile image...
-[Info   :TwitchIntegration] [TWITCH] Profile Image found: https://static-cdn.jtvnw.net/jtv_user_pictures/41311099-e686-4b64-b986-0848a9b11744-profile_image-300x300.png
-[Info   :TwitchIntegration] [TWITCH] TwitchIntegration - Registering Twitch Commands...
-[Info   :TwitchIntegration] [TWITCH] Registering command VISIT...
-[Info   :TwitchIntegration] [TWITCH] Successfully registered commands!
-[Info   :TwitchIntegration] [TWITCH] Registering command TALK...
-[Info   :TwitchIntegration] [TWITCH] Successfully registered commands!
-[Info   :TwitchIntegration] [TWITCH] Registering command LEAVE...
-[Info   :TwitchIntegration] [TWITCH] Successfully registered commands!
-[Info   :TwitchIntegration] [TWITCH] TwitchIntegration - Twitch Commands registered!
-[Info   :TwitchIntegration] [TWITCH] TwitchIntegration - Patched classes!
-[Info   :TwitchIntegration] [TWITCH] TwitchIntegration Plugin loaded!
-[Info   : Unity Log] SaveManagerAwakePatch: CurrentSaveFilePath=C:/Users/Andy1/AppData/LocalLow/Nokta Games/Supermarket Simulator\Save 1.es3
+[Info   : Unity Log] Quality settings reset
+[Info   :AutoPriceUpdater] AutoPriceUpdater has been initialized!
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Chokipik Cereal
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ron's Sliced Bread
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Kraftung Flour
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Lespieds Oil
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Panzati Pasta
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Susu Sugar Powdered
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Aotte Bottled Water
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Comté Cheese
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Narvalo Coffee Dark Roast
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bio Eggs
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bourlait Milk
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for TeaPalace Tea Black
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for PB's Peanut Butter
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Farine Flour
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Tupiges Olive Oil
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Elo Pasta Spaghetti
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Lustupacru Rice Basmati
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Laba Salt
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bio Juice Orange Juice
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Cola Soda
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Zap Soda
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bio Juice Apple Juice
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Labol Milk-6Pack
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Turko Soda
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bon Papa Cake
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Pépites Cake
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bonbek Candy
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Crispy Chibi Cereal
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Chocotte Chocolate Bar
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Frügen Yoghurt
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Jaja Vevel Bleach
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Touprop Cleaner
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Cleandish Dishwasher Tablet
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Savion Hand Soap
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Kaya Shampoo
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Poudou Toiletpaper
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Don Bernardo Cheese
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Don Bernardo Cheese
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Hone Honey
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Stark Tuna
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bio Eggs-4pack
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Pablo Sugar Powdered
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Paysans Butter
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Honey Bees Cereal
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Mwef Chicken
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Vandame's French Fries
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for DeNiro Pizza Mixed
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Miam Potato Bag
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Mimolette Cheese
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Narvalo Coffee Light Roast
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Montcuq Bottled Water
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bio Eggs-12pack
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Lustupacru Pasta Elbows
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Susu Sugar Brown
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for TeaPalace Tea Green
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ronpoint Moussaka
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for NordicHarbor Salmon
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Prypiat Scallop Gratin
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bovora Steak
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ulego Sushi Large
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ulego Sushi Small
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bovora Veal Chop
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Sans Crab Stick
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Hothot Hot Sauce
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for MaxiCone Icecream Chocolate
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Kekette Ketchup
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Yoyo Mayonnaise
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for ChezzyPizz Pizza Cheddar
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Fess Beer Blonde Ale - 6 PACK
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Fess Beer Blonde Ale - Keg
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Fess Beer Blonde Ale
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Teochew  Beer Lager 
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Covidos Chips
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bibi Houmus
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Eay Vodka
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Chipos Chips
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Sublett's Flour
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Puray Mashed Potatoes
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Afyon Pepper
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Elo Rice
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ron's Sandwich Bread
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Boully Sugar Powdered
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for WC Boeff Bleach
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Kilemol Cleaner
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Boum Dishwasher Tablet
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Yamo Cleaner
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Sapu Dish Soap Durian
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bidet Toiletpaper
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Prypiat Galette Ham&Cheese
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bovora Ground Beef
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ronpoint Ham Pastry
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for B&K Ham
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ronpoint Lasagne
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Sapore Proscuito
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bovora Chicken Leg
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Narvalo Coffee Medium Roast
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for JusTsistu Soda
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Kouje Soda
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Pulp Soda
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ropico Soda
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Daron Sugar Light Brown
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for MrBean Green Beans
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for MaxiCone Icecream Vanilla
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bonbek Icecream
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bigtony Pizza
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Spok Potato Pops
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ege Veggie Mix
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for BK Beer Blonde Ale
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Teochew Beer Lager - 6 PACK
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Teochew Beer Lager - Keg
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Magnat Vodka
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Grand Marnier Whiskey
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Chebon Wine
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Eros Cheese
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Gruyere Cheese
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Etron Clotted Cream
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Parillo Pasta Penne
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for UncleTony's Rice
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Daron Sugar Cane
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Madone Yoghurt
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Wesh Cleaner
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Cemagik Dishwasher Tablet
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Mouss Dish Soap Lemon
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Souplesse Fabric Softener
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Abc Book
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Colors Book
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Donnine Book
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Electromagnetic Field Book
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for I Won't Share Book
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Mother And Child Book
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Le Triangle Cleaner
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Miaoumiam Cat Food
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Patpat Cat Food
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Patpat Dog Food
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Gerbe Cake
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Marbré Cake
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Vin's Chips
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Patatartine Chocolate Spread
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Cola Soda Can - 6 Pack
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Zap Soda Can - 6 Pack
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Fort-lacs Bottled Water
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Toudou Fabric Softener
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Compact Paper Towel
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Petus Toiletpaper
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Signoulos Toothpaste
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Krok Book
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Once Upon A Time Book
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Piticha Book
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for The Surprise Book
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Vintage Storybook Book
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Wombat Book
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Prairie Cake
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for St Michmich Cake
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Denorme Chocolate Bar
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Boudain Chocolate Powder
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Daron Sugar
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Yowp Yoghurt
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for BK Beer Brown Ale - 6 PACK
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Dehl Beer Brown Ale - Keg
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Jack Sublett Whiskey
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Japanese Whisky
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Heng Wine
+[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Pouilleux Wine
+[Info   :AutoPriceUpdater] Prices updated! Total updated prices: 153
+[Info   : Unity Log] NewGameEnumeratorStart
 [Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
-[Info   :ChangeCurrency] False
-[Message:MelonLoader] [Pallets_Display] Table=Bank Loans_de
-[Message:MelonLoader] [Pallets_Display] Table=Computer_de
-[Message:MelonLoader] [Pallets_Display] Table=Customer Speech_de
-[Message:MelonLoader] [Pallets_Display] Table=Daily Statistics_de
-[Message:MelonLoader] [Pallets_Display] Table=Display Type_de
-[Message:MelonLoader] [Pallets_Display] Table=Furnitures_de
-[Message:MelonLoader] [Pallets_Display] Table=InGame_de
-[Message:MelonLoader] [Pallets_Display] Table=Interaction Hints_de
-[Message:MelonLoader] [Pallets_Display] Table=Interaction Warnings_de
-[Message:MelonLoader] [Pallets_Display] Table=Interaction_de
-[Message:MelonLoader] [Pallets_Display] Table=Menu_de
-[Message:MelonLoader] [Pallets_Display] Table=Objective_de
-[Message:MelonLoader] [Pallets_Display] Table=Onboarding_de
-[Message:MelonLoader] [Pallets_Display] Table=Product Licenses_de
-[Message:MelonLoader] [Pallets_Display] Table=Products_de
-[Message:MelonLoader] [Pallets_Display] Table=Sections_de
-[Message:MelonLoader] [Pallets_Display] Table=Warnings_de
-[Message:MelonLoader] [Better_Save_System] Main Scene
-[Message:MelonLoader] [Store_Customizer] [StoreCustomizer] OnSceneWasLoaded: Main Scene
-[Message:MelonLoader] [Store_Customizer] [StoreCustomizer] LoadedComputerObjects
-[Message:MelonLoader] [Store_Customizer] [StoreCustomizer] LoadedWallsObjects
-[Message:MelonLoader] [Store_Customizer] [StoreCustomizer] Loading config into game
-[Info   : Unity Log] StorageTitleColor=RGBA(0.000, 0.000, 1.000, 1.000) || Party Markt Lager
-[Info   : Unity Log] StoreCustomizerName: True
-[Info   : Unity Log] m_OnClickTrue
-[Info   :TwitchIntegration] [TWITCH] Active Scene: Main Scene
-[Info   :TwitchIntegration] [TWITCH] Create Pick New Name Button...
-[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-[Warning: Unity Log] Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
-[Info   :TwitchIntegration] [TWITCH] Pick New Name Button created!
-[Info   :TwitchIntegration] [TWITCH] Updating Hire Tab...
-[Info   :TwitchIntegration] [TWITCH] Updating Cashier Items...
-[Info   :TwitchIntegration] [TWITCH] Updating Restocker Items...
-[Info   :TwitchIntegration] [TWITCH] Hire Tab updated!
-[Info   :TwitchIntegration] [TWITCH] Subscribed to Day Cycle Events!
-[Info   :TwitchIntegration] [TWITCH] Loaded all Scenes and resetted to default!
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-[Info   :NarrowRack] shrinking visible shelfs
-[Info   :NarrowRack] fixing navmash
-[Info   :NarrowRack] fixing placing mode
-[Info   :NarrowRack] fixing interaction zone
-[Info   :NarrowRack] killing parents for display
-[Info   :NarrowRack] moving to right place for X Axis
-[Info   :NarrowRack] shrinking visible shelfs
-[Info   :NarrowRack] fixing navmash
-[Info   :NarrowRack] fixing placing mode
-[Info   :NarrowRack] fixing interaction zone
-[Info   :NarrowRack] killing parents for display
-[Info   :NarrowRack] moving to right place for X Axis
-[Info   :NarrowShelf] Narrow Shelf (UnityEngine.GameObject)
-[Info   :NarrowShelf] shrinking visible shelfs
-[Info   :NarrowShelf] fixing navmash
-[Info   :NarrowShelf] fixing placing mode
-[Info   :NarrowShelf] fixing interaction zone
-[Info   :NarrowShelf] killing parents for display
-[Info   :NarrowShelf] moving to right place for X Axis
+[Info   :ChangeCurrency] True
+[Warning:ChangeCurrency] Applying EUR_5_BILL texture to 5 Dollar Variant (Money)
+[Warning:ChangeCurrency] Applying EUR_10_BILL texture to 10 Dollar Variant (Money)
+[Warning:ChangeCurrency] Applying EUR_20_BILL texture to 20 Dollar Variant (Money)
+[Warning:ChangeCurrency] Applying EUR_50_BILL texture to 50 Dollar Variant (Money)
+[Warning:ChangeCurrency] Applying EUR_1ct_COIN texture to Coin_1_Cent (Money)
+[Warning:ChangeCurrency] Applying EUR_5ct_COIN texture to Coin_5_Cents (Money)
+[Warning:ChangeCurrency] Applying EUR_10ct_COIN texture to Coin_10_Cents (Money)
+[Warning:ChangeCurrency] Applying EUR_20ct_COIN texture to Coin_25_Cents (Money)
+[Warning:ChangeCurrency] Applying EUR_50ct_COIN texture to Coin_50_Cents (Money)
+[Warning:ChangeCurrency] Applying EUR_5_BILL texture to 5 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_10_BILL texture to 10 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_20_BILL texture to 20 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_50_BILL texture to 50 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1ct_COIN texture to 1 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_5ct_COIN texture to 5 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_10ct_COIN texture to 10 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_20ct_COIN texture to 25 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1_COIN texture to Coin_50_Cents(Clone) (Money)
+[Warning:ChangeCurrency] Applying EUR_2_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_2_COIN texture to Coin_50_Cents(Clone) (Money)
+[Warning:ChangeCurrency] Applying EUR_50ct_COIN texture to 50 Cent Pack (MoneyPack)
 [Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
-[Info   :ChangeCurrency] False
+[Info   :ChangeCurrency] True
+[Warning:ChangeCurrency] Applying EUR_5_BILL texture to 5 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_10_BILL texture to 10 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_20_BILL texture to 20 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_50_BILL texture to 50 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1ct_COIN texture to 1 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_5ct_COIN texture to 5 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_10ct_COIN texture to 10 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_20ct_COIN texture to 25 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1_COIN texture to Coin_50_Cents(Clone) (Money)
+[Warning:ChangeCurrency] Applying EUR_2_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_2_COIN texture to Coin_50_Cents(Clone) (Money)
+[Warning:ChangeCurrency] Applying EUR_50ct_COIN texture to 50 Cent Pack (MoneyPack)
 [Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
-[Info   :ChangeCurrency] False
+[Info   :ChangeCurrency] True
+[Warning:ChangeCurrency] Applying EUR_5_BILL texture to 5 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_10_BILL texture to 10 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_20_BILL texture to 20 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_50_BILL texture to 50 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1ct_COIN texture to 1 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_5ct_COIN texture to 5 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_10ct_COIN texture to 10 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_20ct_COIN texture to 25 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1_COIN texture to Coin_50_Cents(Clone) (Money)
+[Warning:ChangeCurrency] Applying EUR_2_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_2_COIN texture to Coin_50_Cents(Clone) (Money)
+[Warning:ChangeCurrency] Applying EUR_50ct_COIN texture to 50 Cent Pack (MoneyPack)
 [Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
-[Info   :ChangeCurrency] False
+[Info   :ChangeCurrency] True
+[Warning:ChangeCurrency] Applying EUR_5_BILL texture to 5 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_10_BILL texture to 10 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_20_BILL texture to 20 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_50_BILL texture to 50 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1ct_COIN texture to 1 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_5ct_COIN texture to 5 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_10ct_COIN texture to 10 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_20ct_COIN texture to 25 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1_COIN texture to Coin_50_Cents(Clone) (Money)
+[Warning:ChangeCurrency] Applying EUR_2_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_2_COIN texture to Coin_50_Cents(Clone) (Money)
+[Warning:ChangeCurrency] Applying EUR_50ct_COIN texture to 50 Cent Pack (MoneyPack)
 [Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
-[Info   :ChangeCurrency] False
-[Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
-[Info   :ChangeCurrency] False
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Message:MelonLoader] [Pallets_Display] True
-[Info   : Unity Log] Furnitures loaded: 61
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-[Warning: Unity Log] You're attempting to despawn a null gameObject.
-[Info   :TwitchIntegration] [TWITCH] Connecting to irc.chat.twitch.tv:6667
-[Info   :TwitchIntegration] [TWITCH] Connected! Try to get user (GamerHD1991-Supermarket, GamerHD1991)
-[Info   :TwitchIntegration] [TWITCH] Joined Channel: gamerhd1991
-[Info   :TwitchIntegration] [TWITCH] Status updated to Twitch connected!
-[Info   :TwitchIntegration] [TWITCH] ImageLoader Loading: https://static-cdn.jtvnw.net/jtv_user_pictures/41311099-e686-4b64-b986-0848a9b11744-profile_image-300x300.png
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "---GAME---/Store/Storage/Walls/Showcase_Store_08/Showcase_Store_Door_08"
-[Error  : Unity Log] Display Slot doesn't have a display parent
-[Error  : Unity Log] Display Slot (2) doesn't have a display parent
-[Error  : Unity Log] Display Slot (4) doesn't have a display parent
-[Error  : Unity Log] Display Slot (6) doesn't have a display parent
-[Warning: Unity Log] You're attempting to despawn a null gameObject.
-[Warning: Unity Log] You're attempting to despawn a null gameObject.
-[Warning: Unity Log] You're attempting to despawn a null gameObject.
-[Warning: Unity Log] You're attempting to despawn a null gameObject.
-[Warning: Unity Log] You're attempting to despawn a null gameObject.
-[Warning: Unity Log] You're attempting to despawn a null gameObject.
-[Warning: Unity Log] You're attempting to despawn a null gameObject.
-[Warning: Unity Log] You're attempting to despawn a null gameObject.
-[Warning: Unity Log] You're attempting to despawn a null gameObject.
-[Warning: Unity Log] You're attempting to despawn a null gameObject.
-[Message:MelonLoader] [AutoPriceUpdater] Starting AutoPriceUpdater...
-[Message:MelonLoader] [AutoPriceUpdater] No products are ignored.
-[Message:MelonLoader] [AutoPriceUpdater] All prices are up to date.
-[Message:MelonLoader] [AutoPriceUpdater] AutoPriceUpdater started!
+[Info   :ChangeCurrency] True
+[Warning:ChangeCurrency] Applying EUR_5_BILL texture to 5 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_10_BILL texture to 10 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_20_BILL texture to 20 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_50_BILL texture to 50 Dollar Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1ct_COIN texture to 1 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_5ct_COIN texture to 5 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_10ct_COIN texture to 10 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_20ct_COIN texture to 25 Cent Pack (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_1_COIN texture to Coin_50_Cents(Clone) (Money)
+[Warning:ChangeCurrency] Applying EUR_2_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
+[Warning:ChangeCurrency] Applying EUR_2_COIN texture to Coin_50_Cents(Clone) (Money)
+[Warning:ChangeCurrency] Applying EUR_50ct_COIN texture to 50 Cent Pack (MoneyPack)
+[Error  : Unity Log] Couldn't find any FurnitureSO with id: 1337
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+FurnitureGenerator.SpawnFurniture (System.Int32 id, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+DisplayManager.LoadDisplayData () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+DisplayManager.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+
+[Error  : Unity Log] Couldn't find any FurnitureSO with id: 589980
+[Error  : Unity Log] Couldn't find any FurnitureSO with id: 589600
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+FurnitureGenerator.SpawnFurniture (System.Int32 id, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+RackManager.LoadRackData () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+RackManager.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+
+[Info   :AutoPriceUpdater] Starting AutoPriceUpdater...
+[Info   :AutoPriceUpdater] Ignored products: None
 [Info   : Unity Log] Move Trash Bin: Trash Bin position saved!
 [Info   : Unity Log] AITrafficCar__Coupe_1A(Clone)
 [Info   : Unity Log] AITrafficCar__Supersport_1A(Clone)
@@ -670,64 +750,99 @@ If you absolutely need to use negative scaling you can use the convex MeshCollid
 [Info   : Unity Log] AITrafficCar__Sedan_3A
 [Warning: Unity Log] Can not play a disabled audio source
 [Info   : Unity Log] Switch Off
+[Info   : Unity Log] CustomerHurtFemale (3)
+[Info   : Unity Log] CustomerHurtFemale (4)
 [Info   : Unity Log] Checkout Warning SFX
+[Info   : Unity Log] Window Cleaning SFX
+[Info   : Unity Log] Checkout
 [Info   : Unity Log] Checkout
 [Info   : Unity Log] Switch On
+[Info   : Unity Log] Checkout
 [Info   : Unity Log] Checkout
 [Info   : Unity Log] AITrafficCar__Taxi_1A
 [Warning: Unity Log] Can not play a disabled audio source
 [Info   : Unity Log] Scanning
-[Info   : Unity Log] Money Paper
-[Info   : Unity Log] Picking Up Box
-[Info   : Unity Log] Coin
-[Info   : Unity Log] Scanning Product
-[Info   : Unity Log] Mouse Click
-[Info   : Unity Log] Cash Register Open
-[Info   : Unity Log] Cash Register Close
-[Info   : Unity Log] Dropping Box
-[Info   : Unity Log] Place Item SFX
-[Info   : Unity Log] Checkout SFX
-[Info   : Unity Log] Background SFX
-[Warning: Unity Log] Can not play a disabled audio source
 [Info   : Unity Log] Scanning
-[Info   : Unity Log] AITrafficCar__Coupe_1A
-[Warning: Unity Log] Can not play a disabled audio source
-[Info   : Unity Log] AITrafficCar__PickUp_1A
-[Warning: Unity Log] Can not play a disabled audio source
-[Info   : Unity Log] AITrafficCar__Compact_1A
-[Warning: Unity Log] Can not play a disabled audio source
-[Info   : Unity Log] Cash Register Open
-[Info   : Unity Log] Dropping Box
-[Info   : Unity Log] Cash Register Close
-[Info   : Unity Log] Place Item SFX
-[Info   : Unity Log] Checkout SFX
-[Info   : Unity Log] Background SFX
 [Info   : Unity Log] Money Paper
 [Info   : Unity Log] Picking Up Box
 [Info   : Unity Log] Coin
-[Info   : Unity Log] Mouse Click
 [Info   : Unity Log] Scanning Product
-[Info   : Unity Log] Checkout Warning SFX
-[Info   : Unity Log] Switch Off
-[Info   : Unity Log] Switch On
-[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Tween startup failed (NULL target/property - ): the tween will now be killed ► 
-[Error  :SmartPocketBoxes] SETUP BACKPACK
-[Info   : Unity Log] Market prices changed for following products
-[Info   :TwitchIntegration] [TWITCH] Profile Image loaded!
-[Message:MelonLoader] [EZ_Delivery] Final Count: 1
-[Info   :SmartPocketBoxes] USER IS HOLDING BOX
-[Info   :SmartPocketBoxes] CONSOLIDATED] 2 Cereal IN 2 BOXES INTO 1 BOXES.
-[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>An error inside a tween callback was taken care of () ► 
+[Info   : Unity Log] Mouse Click
+[Info   : Unity Log] Cash Register Open
+[Info   : Unity Log] Cash Register Close
+[Info   : Unity Log] Dropping Box
+[Info   : Unity Log] Place Item SFX
+[Info   : Unity Log] Checkout SFX
+[Info   : Unity Log] Background SFX
+[Warning: Unity Log] Can not play a disabled audio source
+[Info   : Unity Log] Mop Cleaning SFX
+[Info   : Unity Log] Scanning
+[Info   : Unity Log] Scanning
+[Info   : Unity Log] Security Camera
+[Info   : Unity Log] Speaker
+[Info   : Unity Log] Dirty Store Warning SFX
+[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/50 to 200/125. Use DOTween.SetTweensCapacity to set it manually at startup
+[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/125 to 500/125. Use DOTween.SetTweensCapacity to set it manually at startup
+[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 500/125 to 500/312. Use DOTween.SetTweensCapacity to set it manually at startup
+[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 500/312 to 1250/312. Use DOTween.SetTweensCapacity to set it manually at startup
+[Info   : Unity Log] Destroy NewGameEnumerator
+[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
+Stack trace:
+(wrapper dynamic-method) RestockerItem.DMD<RestockerItem::Setup>(RestockerItem)
+RestockerItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
 
-  at (wrapper managed-to-native) UnityEngine.GameObject.SetActive(UnityEngine.GameObject,bool)
-  at Box.<CloseBox>b__55_0 () [0x00000] in <5a2193a3129a437f83b27d620b4aa00d>:0 
-  at DG.Tweening.Tween.OnTweenCallback (DG.Tweening.TweenCallback callback, DG.Tweening.Tween t) [0x00007] in <fcc0bbf6bf4e430c91d4aa05736fc5c6>:0 
+[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
+Stack trace:
+(wrapper dynamic-method) CashierItem.DMD<CashierItem::Setup>(CashierItem)
+CashierItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
 
+[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
+Stack trace:
+(wrapper dynamic-method) RestockerItem.DMD<RestockerItem::Setup>(RestockerItem)
+RestockerItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
 
-[Info   :SmartPocketBoxes] Attempt Spawn Key Press While Not Holding Box
-[Error  :SmartPocketBoxes] LABEL IS NULL
-[Info   :SmartPocketBoxes] Attempt Spawn Key Press While Not Holding Box
-[Error  :SmartPocketBoxes] LABEL IS NULL
-[Info   :SmartPocketBoxes] Attempt Spawn Key Press While Not Holding Box
-[Error  :SmartPocketBoxes] LABEL IS NULL
-[Message:MelonLoader] [Store_Customizer] MelonPreferences Saved to D:\Supermarket Simulator mod\Github\Für alle\MLLoader\UserData\store_customizer.cfg
+[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
+Stack trace:
+(wrapper dynamic-method) RestockerItem.DMD<RestockerItem::Setup>(RestockerItem)
+RestockerItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+
+[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
+Stack trace:
+(wrapper dynamic-method) CashierItem.DMD<CashierItem::Setup>(CashierItem)
+CashierItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+
+[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
+Stack trace:
+(wrapper dynamic-method) CashierItem.DMD<CashierItem::Setup>(CashierItem)
+CashierItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+
+[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
+Stack trace:
+(wrapper dynamic-method) RestockerItem.DMD<RestockerItem::Setup>(RestockerItem)
+RestockerItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+
+[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
+Stack trace:
+(wrapper dynamic-method) RestockerItem.DMD<RestockerItem::Setup>(RestockerItem)
+RestockerItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+
+[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
+Stack trace:
+(wrapper dynamic-method) CashierItem.DMD<CashierItem::Setup>(CashierItem)
+CashierItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+
+[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
+Stack trace:
+(wrapper dynamic-method) CashierItem.DMD<CashierItem::Setup>(CashierItem)
+CashierItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+
+[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
+Stack trace:
+(wrapper dynamic-method) CashierItem.DMD<CashierItem::Setup>(CashierItem)
+CashierItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+
+[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
+Stack trace:
+(wrapper dynamic-method) RestockerItem.DMD<RestockerItem::Setup>(RestockerItem)
+RestockerItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+
