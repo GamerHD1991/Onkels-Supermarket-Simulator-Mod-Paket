@@ -9,12 +9,12 @@
 [Info   :   BepInEx] Loaded 1 patcher method from [Tobey.BepInExMelonLoaderWizard 0.2.2.0]
 [Info   :   BepInEx] Loaded 1 patcher method from [Tobey.MLLoader.GameInfo 1.0.1.0]
 [Info   :   BepInEx] 4 patcher plugins loaded
-[Message: Timestamp] It is currently Sun, 02 Feb 2025 04:08:53 GMT according to http://google.com
+[Message: Timestamp] It is currently Sun, 02 Feb 2025 04:53:36 GMT according to http://google.com
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 11 plugins to load
+[Info   :   BepInEx] 9 plugins to load
 [Info   :   BepInEx] Loading [BepInEx.MelonLoader.Loader.UnityMono 2.1.0]
 [Message:Tobey.MLLoader.GameInfo] Successfully patched MelonLoader game info.
 [Message:MelonLoader] ------------------------------
@@ -47,11 +47,6 @@
 [Info   : Unity Log] -------------------------------------------------------------------------------------------------------
 [Message:MelonLoader] [Checkout_Theme] MelonPreferences Loaded from MLLoader/UserData/checkouttheme.cfg
 [Info   :   BepInEx] Loading [Better Save System Revived 2.0.1]
-[Info   :   BepInEx] Loading [ChangeCurrency 2.3.2]
-[Info   :ChangeCurrency] Plugin ChangeCurrency is loaded! Applying patch...
-[Info   :ChangeCurrency] Working directory: D:\Supermarket Simulator mod\Github\Für Onkel
-[Info   :ChangeCurrency] Currency String: 3
-[Info   :   BepInEx] Loading [ChangeCurrency Product Price Changer 2.3.2]
 [Info   :   BepInEx] Loading [AutoPriceUpdater 1.2.0]
 [Info   :AutoPriceUpdater] Plugin AutoPriceUpdater is loaded!
 [Info   :   BepInEx] Loading [MoveTrashBin 1.0.2]
@@ -105,14 +100,14 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |   |   |-- BepInEx.MelonLoader.Loader.UnityMono.cfg [2,51 KB]
 [Message: File Tree] |   |   |-- BetterSaveSystemRevived.cfg [832 B]
 [Message: File Tree] |   |   |-- ChangeCurrency.cfg [13,65 KB]
-[Message: File Tree] |   |   |-- ChangeCurrency.ProductPrices.cfg [4,49 KB]
+[Message: File Tree] |   |   |-- ChangeCurrency.ProductPrices.cfg [19,79 KB]
 [Message: File Tree] |   |   |-- com.dsld.autopriceupdater.cfg [1,55 KB]
 [Message: File Tree] |   |   |-- EasyScan.cfg [204 B]
 [Message: File Tree] |   |   |-- PortableScanner.cfg [4,78 KB]
 [Message: File Tree] |   |   |-- QuieterCars.cfg [239 B]
 [Message: File Tree] |   |   |-- ResizableLabels.cfg [605 B]
 [Message: File Tree] |   |   |-- shaklin.MoveTrashBin.cfg [13,86 KB]
-[Message: File Tree] |   |   |-- shaklin.NPCsCustomNames.cfg [10,99 KB]
+[Message: File Tree] |   |   |-- shaklin.NPCsCustomNames.cfg [11 KB]
 [Message: File Tree] |   |   |-- shaklin.SoundReplacer.cfg [201 B]
 [Message: File Tree] |   |   |-- shaklin.TextureReplacer.cfg [9,23 KB]
 [Message: File Tree] |   |   |-- SmartPocketBoxes.cfg [1022 B]
@@ -175,6 +170,9 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |   |   |-- NPCsCustomNames
 [Message: File Tree] |   |   |   |
 [Message: File Tree] |   |   |   |-- data
+[Message: File Tree] |   |   |   |   |
+[Message: File Tree] |   |   |   |   |-- Cashiers_Names.json [102 B]
+[Message: File Tree] |   |   |   |   \-- Restockers_Names.json [87 B]
 [Message: File Tree] |   |   |   |
 [Message: File Tree] |   |   |   |-- NPCsCustomNames.dll [72,5 KB]
 [Message: File Tree] |   |   |   |-- NPCsCustomNames_List.txt [1,07 KB]
@@ -347,10 +345,9 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |   |   |
 [Message: File Tree] |   |   |-- AutoPriceUpdater.dll [16 KB]
 [Message: File Tree] |   |   |-- BetterSaveSystemRevived.dll [509,5 KB]
-[Message: File Tree] |   |   |-- ChangeCurrency.dll [34,09 MB]
 [Message: File Tree] |   |   \-- UnrestrictedPlacement.dll [7,5 KB]
 [Message: File Tree] |   |
-[Message: File Tree] |   \-- LogOutput.log [21,52 KB]
+[Message: File Tree] |   \-- LogOutput.log [21,18 KB]
 [Message: File Tree] |
 [Message: File Tree] |-- MLLoader
 [Message: File Tree] |   |
@@ -447,6 +444,8 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |-- UnityPlayer.dll [29,54 MB]
 [Message: File Tree] |-- version.dll [25,5 KB]
 [Message: File Tree] \-- winhttp.dll [25,5 KB]
+[Info   : Unity Log] NPCsCustomNames: Cashiers_Names.json loaded!
+[Info   : Unity Log] NPCsCustomNames: Restockers_Names.json loaded!
 [Info   : Unity Log] NPCsCustomNames: Added lines from NPCsCustomNames_Text.txt
 [Info   : Unity Log] NPCsCustomNames: List created from matching files!
 [Info   : Unity Log] NPCsCustomNames: Added names from NPCsCustomNames_List.txt
@@ -460,257 +459,9 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Info   : Unity Log] Custom Sounds loaded!
 [Info   : Unity Log] Custom 3D Objects loaded!
 [Info   : Unity Log] Custom Textures loaded!
-[Info   : Unity Log] Quality settings reset
 [Info   :AutoPriceUpdater] AutoPriceUpdater has been initialized!
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Chokipik Cereal
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ron's Sliced Bread
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Kraftung Flour
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Lespieds Oil
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Panzati Pasta
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Susu Sugar Powdered
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Aotte Bottled Water
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Comté Cheese
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Narvalo Coffee Dark Roast
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bio Eggs
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bourlait Milk
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for TeaPalace Tea Black
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for PB's Peanut Butter
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Farine Flour
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Tupiges Olive Oil
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Elo Pasta Spaghetti
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Lustupacru Rice Basmati
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Laba Salt
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bio Juice Orange Juice
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Cola Soda
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Zap Soda
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bio Juice Apple Juice
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Labol Milk-6Pack
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Turko Soda
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bon Papa Cake
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Pépites Cake
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bonbek Candy
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Crispy Chibi Cereal
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Chocotte Chocolate Bar
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Frügen Yoghurt
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Jaja Vevel Bleach
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Touprop Cleaner
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Cleandish Dishwasher Tablet
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Savion Hand Soap
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Kaya Shampoo
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Poudou Toiletpaper
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Don Bernardo Cheese
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Don Bernardo Cheese
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Hone Honey
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Stark Tuna
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bio Eggs-4pack
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Pablo Sugar Powdered
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Paysans Butter
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Honey Bees Cereal
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Mwef Chicken
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Vandame's French Fries
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for DeNiro Pizza Mixed
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Miam Potato Bag
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Mimolette Cheese
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Narvalo Coffee Light Roast
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Montcuq Bottled Water
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bio Eggs-12pack
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Lustupacru Pasta Elbows
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Susu Sugar Brown
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for TeaPalace Tea Green
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ronpoint Moussaka
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for NordicHarbor Salmon
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Prypiat Scallop Gratin
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bovora Steak
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ulego Sushi Large
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ulego Sushi Small
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bovora Veal Chop
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Sans Crab Stick
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Hothot Hot Sauce
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for MaxiCone Icecream Chocolate
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Kekette Ketchup
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Yoyo Mayonnaise
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for ChezzyPizz Pizza Cheddar
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Fess Beer Blonde Ale - 6 PACK
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Fess Beer Blonde Ale - Keg
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Fess Beer Blonde Ale
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Teochew  Beer Lager 
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Covidos Chips
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bibi Houmus
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Eay Vodka
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Chipos Chips
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Sublett's Flour
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Puray Mashed Potatoes
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Afyon Pepper
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Elo Rice
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ron's Sandwich Bread
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Boully Sugar Powdered
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for WC Boeff Bleach
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Kilemol Cleaner
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Boum Dishwasher Tablet
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Yamo Cleaner
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Sapu Dish Soap Durian
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bidet Toiletpaper
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Prypiat Galette Ham&Cheese
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bovora Ground Beef
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ronpoint Ham Pastry
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for B&K Ham
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ronpoint Lasagne
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Sapore Proscuito
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bovora Chicken Leg
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Narvalo Coffee Medium Roast
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for JusTsistu Soda
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Kouje Soda
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Pulp Soda
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ropico Soda
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Daron Sugar Light Brown
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for MrBean Green Beans
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for MaxiCone Icecream Vanilla
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bonbek Icecream
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Bigtony Pizza
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Spok Potato Pops
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Ege Veggie Mix
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for BK Beer Blonde Ale
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Teochew Beer Lager - 6 PACK
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Teochew Beer Lager - Keg
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Magnat Vodka
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Grand Marnier Whiskey
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Chebon Wine
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Eros Cheese
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Gruyere Cheese
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Etron Clotted Cream
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Parillo Pasta Penne
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for UncleTony's Rice
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Daron Sugar Cane
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Madone Yoghurt
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Wesh Cleaner
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Cemagik Dishwasher Tablet
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Mouss Dish Soap Lemon
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Souplesse Fabric Softener
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Abc Book
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Colors Book
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Donnine Book
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Electromagnetic Field Book
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for I Won't Share Book
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Mother And Child Book
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Le Triangle Cleaner
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Miaoumiam Cat Food
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Patpat Cat Food
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Patpat Dog Food
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Gerbe Cake
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Marbré Cake
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Vin's Chips
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Patatartine Chocolate Spread
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Cola Soda Can - 6 Pack
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Zap Soda Can - 6 Pack
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Fort-lacs Bottled Water
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Toudou Fabric Softener
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Compact Paper Towel
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Petus Toiletpaper
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Signoulos Toothpaste
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Krok Book
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Once Upon A Time Book
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Piticha Book
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for The Surprise Book
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Vintage Storybook Book
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Wombat Book
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Prairie Cake
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for St Michmich Cake
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Denorme Chocolate Bar
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Boudain Chocolate Powder
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Daron Sugar
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Yowp Yoghurt
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for BK Beer Brown Ale - 6 PACK
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Dehl Beer Brown Ale - Keg
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Jack Sublett Whiskey
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Japanese Whisky
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Heng Wine
-[Info   :ChangeCurrency Product Price Changer] Registering Config Entry for Pouilleux Wine
-[Info   :AutoPriceUpdater] Prices updated! Total updated prices: 153
+[Info   :AutoPriceUpdater] All prices are up to date.
 [Info   : Unity Log] NewGameEnumeratorStart
-[Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
-[Info   :ChangeCurrency] True
-[Warning:ChangeCurrency] Applying EUR_5_BILL texture to 5 Dollar Variant (Money)
-[Warning:ChangeCurrency] Applying EUR_10_BILL texture to 10 Dollar Variant (Money)
-[Warning:ChangeCurrency] Applying EUR_20_BILL texture to 20 Dollar Variant (Money)
-[Warning:ChangeCurrency] Applying EUR_50_BILL texture to 50 Dollar Variant (Money)
-[Warning:ChangeCurrency] Applying EUR_1ct_COIN texture to Coin_1_Cent (Money)
-[Warning:ChangeCurrency] Applying EUR_5ct_COIN texture to Coin_5_Cents (Money)
-[Warning:ChangeCurrency] Applying EUR_10ct_COIN texture to Coin_10_Cents (Money)
-[Warning:ChangeCurrency] Applying EUR_20ct_COIN texture to Coin_25_Cents (Money)
-[Warning:ChangeCurrency] Applying EUR_50ct_COIN texture to Coin_50_Cents (Money)
-[Warning:ChangeCurrency] Applying EUR_5_BILL texture to 5 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_10_BILL texture to 10 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_20_BILL texture to 20 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_50_BILL texture to 50 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1ct_COIN texture to 1 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_5ct_COIN texture to 5 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_10ct_COIN texture to 10 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_20ct_COIN texture to 25 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1_COIN texture to Coin_50_Cents(Clone) (Money)
-[Warning:ChangeCurrency] Applying EUR_2_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_2_COIN texture to Coin_50_Cents(Clone) (Money)
-[Warning:ChangeCurrency] Applying EUR_50ct_COIN texture to 50 Cent Pack (MoneyPack)
-[Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
-[Info   :ChangeCurrency] True
-[Warning:ChangeCurrency] Applying EUR_5_BILL texture to 5 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_10_BILL texture to 10 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_20_BILL texture to 20 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_50_BILL texture to 50 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1ct_COIN texture to 1 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_5ct_COIN texture to 5 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_10ct_COIN texture to 10 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_20ct_COIN texture to 25 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1_COIN texture to Coin_50_Cents(Clone) (Money)
-[Warning:ChangeCurrency] Applying EUR_2_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_2_COIN texture to Coin_50_Cents(Clone) (Money)
-[Warning:ChangeCurrency] Applying EUR_50ct_COIN texture to 50 Cent Pack (MoneyPack)
-[Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
-[Info   :ChangeCurrency] True
-[Warning:ChangeCurrency] Applying EUR_5_BILL texture to 5 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_10_BILL texture to 10 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_20_BILL texture to 20 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_50_BILL texture to 50 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1ct_COIN texture to 1 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_5ct_COIN texture to 5 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_10ct_COIN texture to 10 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_20ct_COIN texture to 25 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1_COIN texture to Coin_50_Cents(Clone) (Money)
-[Warning:ChangeCurrency] Applying EUR_2_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_2_COIN texture to Coin_50_Cents(Clone) (Money)
-[Warning:ChangeCurrency] Applying EUR_50ct_COIN texture to 50 Cent Pack (MoneyPack)
-[Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
-[Info   :ChangeCurrency] True
-[Warning:ChangeCurrency] Applying EUR_5_BILL texture to 5 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_10_BILL texture to 10 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_20_BILL texture to 20 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_50_BILL texture to 50 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1ct_COIN texture to 1 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_5ct_COIN texture to 5 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_10ct_COIN texture to 10 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_20ct_COIN texture to 25 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1_COIN texture to Coin_50_Cents(Clone) (Money)
-[Warning:ChangeCurrency] Applying EUR_2_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_2_COIN texture to Coin_50_Cents(Clone) (Money)
-[Warning:ChangeCurrency] Applying EUR_50ct_COIN texture to 50 Cent Pack (MoneyPack)
-[Info   :ChangeCurrency] CheckoutDrawer_Awake_Patch
-[Info   :ChangeCurrency] True
-[Warning:ChangeCurrency] Applying EUR_5_BILL texture to 5 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_10_BILL texture to 10 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_20_BILL texture to 20 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_50_BILL texture to 50 Dollar Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1ct_COIN texture to 1 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_5ct_COIN texture to 5 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_10ct_COIN texture to 10 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_20ct_COIN texture to 25 Cent Pack (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_1_COIN texture to Coin_50_Cents(Clone) (Money)
-[Warning:ChangeCurrency] Applying EUR_2_COIN texture to 50 Cent Pack(Clone) (MoneyPack)
-[Warning:ChangeCurrency] Applying EUR_2_COIN texture to Coin_50_Cents(Clone) (Money)
-[Warning:ChangeCurrency] Applying EUR_50ct_COIN texture to 50 Cent Pack (MoneyPack)
 [Error  : Unity Log] Couldn't find any FurnitureSO with id: 1337
 [Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
 Stack trace:
@@ -786,63 +537,7 @@ RackManager.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
 [Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 500/125 to 500/312. Use DOTween.SetTweensCapacity to set it manually at startup
 [Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 500/312 to 1250/312. Use DOTween.SetTweensCapacity to set it manually at startup
 [Info   : Unity Log] Destroy NewGameEnumerator
-[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
-Stack trace:
-(wrapper dynamic-method) RestockerItem.DMD<RestockerItem::Setup>(RestockerItem)
-RestockerItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-
-[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
-Stack trace:
-(wrapper dynamic-method) CashierItem.DMD<CashierItem::Setup>(CashierItem)
-CashierItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-
-[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
-Stack trace:
-(wrapper dynamic-method) RestockerItem.DMD<RestockerItem::Setup>(RestockerItem)
-RestockerItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-
-[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
-Stack trace:
-(wrapper dynamic-method) RestockerItem.DMD<RestockerItem::Setup>(RestockerItem)
-RestockerItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-
-[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
-Stack trace:
-(wrapper dynamic-method) CashierItem.DMD<CashierItem::Setup>(CashierItem)
-CashierItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-
-[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
-Stack trace:
-(wrapper dynamic-method) CashierItem.DMD<CashierItem::Setup>(CashierItem)
-CashierItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-
-[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
-Stack trace:
-(wrapper dynamic-method) RestockerItem.DMD<RestockerItem::Setup>(RestockerItem)
-RestockerItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-
-[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
-Stack trace:
-(wrapper dynamic-method) RestockerItem.DMD<RestockerItem::Setup>(RestockerItem)
-RestockerItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-
-[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
-Stack trace:
-(wrapper dynamic-method) CashierItem.DMD<CashierItem::Setup>(CashierItem)
-CashierItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-
-[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
-Stack trace:
-(wrapper dynamic-method) CashierItem.DMD<CashierItem::Setup>(CashierItem)
-CashierItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-
-[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
-Stack trace:
-(wrapper dynamic-method) CashierItem.DMD<CashierItem::Setup>(CashierItem)
-CashierItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-
-[Error  : Unity Log] MissingMethodException: Method not found: string .Extensions.ToMoneyText(single,single)
-Stack trace:
-(wrapper dynamic-method) RestockerItem.DMD<RestockerItem::Setup>(RestockerItem)
-RestockerItem.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
