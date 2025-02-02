@@ -7,8 +7,8 @@ UnityCrashHandler64.exe
 UnityPlayer.dll
 Supermarket Simulator.zip
 HarmonyLog.txt
-BepInEx/plugins/NPCsCustomNames/data/Cashiers_Names.json
-BepInEx/plugins/NPCsCustomNames/data/Restockers_Names.json
+# BepInEx/plugins/NPCsCustomNames/data/Cashiers_Names.json
+# BepInEx/plugins/NPCsCustomNames/data/Restockers_Names.json
 MLLoader/UserData/store_customizer.cfg
 Supermarket-Simulator-Mod-Paket update.zip
 MLLoader/UserData/checkouttheme.cfg

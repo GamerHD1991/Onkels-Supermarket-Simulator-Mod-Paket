@@ -9,7 +9,7 @@
 [Info   :   BepInEx] Loaded 1 patcher method from [Tobey.BepInExMelonLoaderWizard 0.2.2.0]
 [Info   :   BepInEx] Loaded 1 patcher method from [Tobey.MLLoader.GameInfo 1.0.1.0]
 [Info   :   BepInEx] 4 patcher plugins loaded
-[Message: Timestamp] It is currently Sun, 02 Feb 2025 04:53:36 GMT according to http://google.com
+[Message: Timestamp] It is currently Sun, 02 Feb 2025 05:09:34 GMT according to http://google.com
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
@@ -171,8 +171,8 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |   |   |   |
 [Message: File Tree] |   |   |   |-- data
 [Message: File Tree] |   |   |   |   |
-[Message: File Tree] |   |   |   |   |-- Cashiers_Names.json [102 B]
-[Message: File Tree] |   |   |   |   \-- Restockers_Names.json [87 B]
+[Message: File Tree] |   |   |   |   |-- Cashiers_Names.json [99 B]
+[Message: File Tree] |   |   |   |   \-- Restockers_Names.json [94 B]
 [Message: File Tree] |   |   |   |
 [Message: File Tree] |   |   |   |-- NPCsCustomNames.dll [72,5 KB]
 [Message: File Tree] |   |   |   |-- NPCsCustomNames_List.txt [1,07 KB]
@@ -435,7 +435,7 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |-- NPCsCustomNames 1.0.2-116-1-0-2-1713486861.zip [15,26 KB]
 [Message: File Tree] |-- README.md [4,8 KB]
 [Message: File Tree] |-- ReShade.ini [2,82 KB]
-[Message: File Tree] |-- ReShade.log [188,44 KB]
+[Message: File Tree] |-- ReShade.log [97,8 KB]
 [Message: File Tree] |-- ReShadePreset.ini [0 b]
 [Message: File Tree] |-- Supermarket Simulator 2024-05-01 00-14-49.png [4,54 MB]
 [Message: File Tree] |-- Supermarket Simulator 2024-05-01 00-15-04.png [4,38 MB]
@@ -479,6 +479,11 @@ RackManager.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
 
 [Info   :AutoPriceUpdater] Starting AutoPriceUpdater...
 [Info   :AutoPriceUpdater] Ignored products: None
+[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/50 to 200/125. Use DOTween.SetTweensCapacity to set it manually at startup
+[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/125 to 500/125. Use DOTween.SetTweensCapacity to set it manually at startup
+[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 500/125 to 500/312. Use DOTween.SetTweensCapacity to set it manually at startup
+[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 500/312 to 1250/312. Use DOTween.SetTweensCapacity to set it manually at startup
+[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 1250/312 to 1250/780. Use DOTween.SetTweensCapacity to set it manually at startup
 [Info   : Unity Log] Move Trash Bin: Trash Bin position saved!
 [Info   : Unity Log] AITrafficCar__Coupe_1A(Clone)
 [Info   : Unity Log] AITrafficCar__Supersport_1A(Clone)
@@ -532,12 +537,5 @@ RackManager.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
 [Info   : Unity Log] Security Camera
 [Info   : Unity Log] Speaker
 [Info   : Unity Log] Dirty Store Warning SFX
-[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/50 to 200/125. Use DOTween.SetTweensCapacity to set it manually at startup
-[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/125 to 500/125. Use DOTween.SetTweensCapacity to set it manually at startup
-[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 500/125 to 500/312. Use DOTween.SetTweensCapacity to set it manually at startup
-[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 500/312 to 1250/312. Use DOTween.SetTweensCapacity to set it manually at startup
 [Info   : Unity Log] Destroy NewGameEnumerator
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
 [Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
