@@ -9,7 +9,7 @@
 [Info   :   BepInEx] Loaded 1 patcher method from [Tobey.BepInExMelonLoaderWizard 0.2.2.0]
 [Info   :   BepInEx] Loaded 1 patcher method from [Tobey.MLLoader.GameInfo 1.0.1.0]
 [Info   :   BepInEx] 4 patcher plugins loaded
-[Message: Timestamp] It is currently Sun, 02 Feb 2025 05:09:34 GMT according to http://google.com
+[Message: Timestamp] It is currently Sun, 02 Feb 2025 05:24:09 GMT according to http://google.com
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
@@ -228,6 +228,10 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |   |   |   |
 [Message: File Tree] |   |   |   |-- objects_textures
 [Message: File Tree] |   |   |   |   |
+[Message: File Tree] |   |   |   |   |-- DraußenGehweg
+[Message: File Tree] |   |   |   |   |   |
+[Message: File Tree] |   |   |   |   |   \-- Street_Trash_A.png [20,76 KB]
+[Message: File Tree] |   |   |   |   |
 [Message: File Tree] |   |   |   |   |-- pc
 [Message: File Tree] |   |   |   |   |   |
 [Message: File Tree] |   |   |   |   |   |-- Bank.png [397 B]
@@ -258,12 +262,11 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |   |   |   |   |   |-- Wholesale Market_bg.png [16,12 KB]
 [Message: File Tree] |   |   |   |   |   \-- _FONTSLIST.txt [81 B]
 [Message: File Tree] |   |   |   |   |
-[Message: File Tree] |   |   |   |   |-- Wand
-[Message: File Tree] |   |   |   |   |   |
-[Message: File Tree] |   |   |   |   |   |-- Interior_Door_A.png [1011,39 KB]
-[Message: File Tree] |   |   |   |   |   \-- Wallpaper_01_A.png [2,44 MB]
+[Message: File Tree] |   |   |   |   |-- wand
 [Message: File Tree] |   |   |   |   |
-[Message: File Tree] |   |   |   |   \-- ChocolatBox_b94wj0_a.png [123,97 KB]
+[Message: File Tree] |   |   |   |   |-- ChocolatBox_b94wj0_a.png [123,97 KB]
+[Message: File Tree] |   |   |   |   |-- Interior_Door_A.png [1011,39 KB]
+[Message: File Tree] |   |   |   |   \-- Wallpaper_01_A.png [2,44 MB]
 [Message: File Tree] |   |   |   |
 [Message: File Tree] |   |   |   |-- products_icons
 [Message: File Tree] |   |   |   |
@@ -426,7 +429,7 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |-- !Wiki.bat [1,32 KB]
 [Message: File Tree] |-- .doorstop_version [5 B]
 [Message: File Tree] |-- .gitattributes [66 B]
-[Message: File Tree] |-- .gitignore [706 B]
+[Message: File Tree] |-- .gitignore [710 B]
 [Message: File Tree] |-- changelog.txt [170 B]
 [Message: File Tree] |-- doorstop_config.ini [1,43 KB]
 [Message: File Tree] |-- dxgi.dll [4,33 MB]
@@ -538,4 +541,8 @@ RackManager.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
 [Info   : Unity Log] Speaker
 [Info   : Unity Log] Dirty Store Warning SFX
 [Info   : Unity Log] Destroy NewGameEnumerator
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
+[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
 [Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
