@@ -9,19 +9,19 @@
 [Info   :   BepInEx] Loaded 1 patcher method from [Tobey.BepInExMelonLoaderWizard 0.2.2.0]
 [Info   :   BepInEx] Loaded 1 patcher method from [Tobey.MLLoader.GameInfo 1.0.1.0]
 [Info   :   BepInEx] 4 patcher plugins loaded
-[Message: Timestamp] It is currently Sun, 02 Feb 2025 05:24:09 GMT according to http://google.com
+[Message: Timestamp] It is currently Wed, 12 Feb 2025 05:52:16 GMT according to http://google.com
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 9 plugins to load
+[Info   :   BepInEx] 8 plugins to load
 [Info   :   BepInEx] Loading [BepInEx.MelonLoader.Loader.UnityMono 2.1.0]
 [Message:Tobey.MLLoader.GameInfo] Successfully patched MelonLoader game info.
 [Message:MelonLoader] ------------------------------
 [Message:MelonLoader] Game Name: Supermarket Simulator
 [Message:MelonLoader] Game Developer: Nokta Games
 [Message:MelonLoader] Unity Version: 2022.3.38f1
-[Message:MelonLoader] Game Version: 0.5.1
+[Message:MelonLoader] Game Version: 0.6.0
 [Message:MelonLoader] ------------------------------
 [Message:MelonLoader] 
 [Message:MelonLoader] Preferences Loaded!
@@ -33,46 +33,36 @@
 [Message:MelonLoader] ------------------------------
 [Message:MelonLoader] Melon Assembly loaded: '.\Mods\CheckoutTheme.dll'
 [Message:MelonLoader] SHA256 Hash: 'b3fe1304d405c7311343db118644789dfbece6aa3de966be3b2a510ec4c85fa7'
+[Message:MelonLoader] Melon Assembly loaded: '.\Mods\FurnitureAnywhere.dll'
+[Message:MelonLoader] SHA256 Hash: '8f09f98032661141a08bc2819ea72194fcbf3c504fd1103012694331a42d0eb4'
 [Message:MelonLoader] 
 [Message:MelonLoader] ------------------------------
 [Message:MelonLoader] Checkout Theme v1.2.2 by Morabis []
 [Message:MelonLoader] Assembly: CheckoutTheme.dll
 [Message:MelonLoader] ------------------------------
 [Message:MelonLoader] ------------------------------
-[Message:MelonLoader] 1 Mod loaded.
+[Message:MelonLoader] FurnitureAnywhere v1.0.1 by AKMY4 []
+[Message:MelonLoader] Assembly: FurnitureAnywhere.dll
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] ------------------------------
+[Message:MelonLoader] 2 Mods loaded.
 [Message:MelonLoader] 
 [Message:MelonLoader] Support Module Loaded: D:\Supermarket Simulator mod\Github\Für Onkel\MLLoader\MelonLoader\Dependencies\SupportModules\Mono.dll
 [Info   : Unity Log] -------------------------------------------------------------------------------------------------------
 [Info   : Unity Log] ~   This Game has been MODIFIED using MelonLoader. DO NOT report any issues to the Game Developers!   ~
 [Info   : Unity Log] -------------------------------------------------------------------------------------------------------
 [Message:MelonLoader] [Checkout_Theme] MelonPreferences Loaded from MLLoader/UserData/checkouttheme.cfg
+[Info   : Unity Log] Patched method: Rotate
+[Info   : Unity Log] Patched method: PlacingRaycast
+[Info   : Unity Log] Patched method: OverlapBoxes
 [Info   :   BepInEx] Loading [Better Save System Revived 2.0.1]
 [Info   :   BepInEx] Loading [AutoPriceUpdater 1.2.0]
 [Info   :AutoPriceUpdater] Plugin AutoPriceUpdater is loaded!
 [Info   :   BepInEx] Loading [MoveTrashBin 1.0.2]
 [Info   :   BepInEx] Loading [NPCsCustomNames 1.1.0]
-[Info   :   BepInEx] Loading [SoundReplacer 1.0.0]
-[Info   :   BepInEx] Loading [TextureReplacer 1.2.2]
+[Info   :   BepInEx] Loading [SoundReplacer 1.0.2]
+[Info   :   BepInEx] Loading [TextureReplacer 1.2.3]
 [Info   :   BepInEx] Loading [File Tree 1.0.1]
-[Info   :   BepInEx] Loading [UnrestrictedPlacement 1.0.0]
-[Info   :UnrestrictedPlacement] Plugin UnrestrictedPlacement is loaded! Applying patch...
-[Warning:  HarmonyX] AccessTools.DeclaredMethod: Could not find method for type IPlacingMode and name OnTriggerEnter and parameters 
-[Error  : Unity Log] ArgumentException: Undefined target method for patch method static void UnrestrictedPlacement.UnrestrictedPlacementPatch+IPlacingMode_OnTriggerEnter_Patch::Postfix(IPlacingMode __instance)
-Stack trace:
-HarmonyLib.PatchClassProcessor.PatchWithAttributes (System.Reflection.MethodBase& lastOriginal) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
-HarmonyLib.PatchClassProcessor.Patch () (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
-Rethrow as HarmonyException: Patching exception in method null
-HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
-HarmonyLib.PatchClassProcessor.Patch () (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
-HarmonyLib.Harmony.<PatchAll>b__11_0 (System.Type type) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
-HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
-HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
-HarmonyLib.Harmony.PatchAll () (at <474744d65d8e460fa08cd5fd82b5d65f>:0)
-UnrestrictedPlacement.Plugin.Awake () (at <470805b407124d958120bb793e874ab2>:0)
-UnityEngine.GameObject:AddComponent(Type)
-BepInEx.Bootstrap.Chainloader:Start()
-UnityEngine.InputSystem.InputSystem:.cctor()
-
 [Message:   BepInEx] Chainloader startup complete
 [Message: File Tree] D:\Supermarket Simulator mod\Github\Für Onkel
 [Message: File Tree] |
@@ -85,7 +75,7 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |   |-- cache
 [Message: File Tree] |   |   |
 [Message: File Tree] |   |   |-- chainloader_typeloader.dat [3,54 KB]
-[Message: File Tree] |   |   \-- harmony_interop_cache.dat [10,62 KB]
+[Message: File Tree] |   |   \-- harmony_interop_cache.dat [10,71 KB]
 [Message: File Tree] |   |
 [Message: File Tree] |   |-- config
 [Message: File Tree] |   |   |
@@ -172,6 +162,7 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |   |   |   |-- data
 [Message: File Tree] |   |   |   |   |
 [Message: File Tree] |   |   |   |   |-- Cashiers_Names.json [99 B]
+[Message: File Tree] |   |   |   |   |-- Guards_Names.json [28 B]
 [Message: File Tree] |   |   |   |   \-- Restockers_Names.json [94 B]
 [Message: File Tree] |   |   |   |
 [Message: File Tree] |   |   |   |-- NPCsCustomNames.dll [72,5 KB]
@@ -183,6 +174,25 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |   |   |-- SoundReplacer
 [Message: File Tree] |   |   |   |
 [Message: File Tree] |   |   |   |-- sounds
+[Message: File Tree] |   |   |   |   |
+[Message: File Tree] |   |   |   |   |-- examples
+[Message: File Tree] |   |   |   |   |   |
+[Message: File Tree] |   |   |   |   |   |-- Background SFX.ogg [6,99 MB]
+[Message: File Tree] |   |   |   |   |   |-- Car Engine.ogg [134,56 KB]
+[Message: File Tree] |   |   |   |   |   |-- Cash Register Close.ogg [12,95 KB]
+[Message: File Tree] |   |   |   |   |   |-- Cash Register Open.ogg [13,33 KB]
+[Message: File Tree] |   |   |   |   |   |-- Checkout SFX.ogg [52,34 KB]
+[Message: File Tree] |   |   |   |   |   |-- Checkout Warning SFX.ogg [15,59 KB]
+[Message: File Tree] |   |   |   |   |   |-- Coin SFX.ogg [9,29 KB]
+[Message: File Tree] |   |   |   |   |   |-- Dropping Box SFX.ogg [6,12 KB]
+[Message: File Tree] |   |   |   |   |   |-- Main Menu Music.ogg [855,56 KB]
+[Message: File Tree] |   |   |   |   |   |-- Money paper SFX.ogg [7,26 KB]
+[Message: File Tree] |   |   |   |   |   |-- MouseClick.ogg [4,91 KB]
+[Message: File Tree] |   |   |   |   |   |-- Picking Up Box SFX.ogg [6,64 KB]
+[Message: File Tree] |   |   |   |   |   |-- Placing Products SFX.ogg [6,09 KB]
+[Message: File Tree] |   |   |   |   |   |-- Scanning Product.ogg [6,34 KB]
+[Message: File Tree] |   |   |   |   |   |-- Switch Off.ogg [4,69 KB]
+[Message: File Tree] |   |   |   |   |   \-- Switch On.ogg [4,53 KB]
 [Message: File Tree] |   |   |   |   |
 [Message: File Tree] |   |   |   |   |-- Background SFX.ogg [6,99 MB]
 [Message: File Tree] |   |   |   |   |-- Car Engine.ogg [296,26 KB]
@@ -220,7 +230,7 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |   |   |   |   |-- Switch Off.ogg [4,69 KB]
 [Message: File Tree] |   |   |   |   \-- Switch On.ogg [4,53 KB]
 [Message: File Tree] |   |   |   |
-[Message: File Tree] |   |   |   \-- SoundReplacer.dll [10 KB]
+[Message: File Tree] |   |   |   \-- SoundReplacer.dll [10,5 KB]
 [Message: File Tree] |   |   |
 [Message: File Tree] |   |   |-- TextureReplacer
 [Message: File Tree] |   |   |   |
@@ -263,10 +273,11 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |   |   |   |   |   \-- _FONTSLIST.txt [81 B]
 [Message: File Tree] |   |   |   |   |
 [Message: File Tree] |   |   |   |   |-- wand
+[Message: File Tree] |   |   |   |   |   |
+[Message: File Tree] |   |   |   |   |   |-- Interior_Door_A.png [1011,39 KB]
+[Message: File Tree] |   |   |   |   |   \-- Wallpaper_01_A.png [2,44 MB]
 [Message: File Tree] |   |   |   |   |
-[Message: File Tree] |   |   |   |   |-- ChocolatBox_b94wj0_a.png [123,97 KB]
-[Message: File Tree] |   |   |   |   |-- Interior_Door_A.png [1011,39 KB]
-[Message: File Tree] |   |   |   |   \-- Wallpaper_01_A.png [2,44 MB]
+[Message: File Tree] |   |   |   |   \-- ChocolatBox_b94wj0_a.png [123,97 KB]
 [Message: File Tree] |   |   |   |
 [Message: File Tree] |   |   |   |-- products_icons
 [Message: File Tree] |   |   |   |
@@ -347,10 +358,9 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |   |   |       \-- Tobey.FileTree.dll [24 KB]
 [Message: File Tree] |   |   |
 [Message: File Tree] |   |   |-- AutoPriceUpdater.dll [16 KB]
-[Message: File Tree] |   |   |-- BetterSaveSystemRevived.dll [509,5 KB]
-[Message: File Tree] |   |   \-- UnrestrictedPlacement.dll [7,5 KB]
+[Message: File Tree] |   |   \-- BetterSaveSystemRevived.dll [509,5 KB]
 [Message: File Tree] |   |
-[Message: File Tree] |   \-- LogOutput.log [21,18 KB]
+[Message: File Tree] |   \-- LogOutput.log [20,08 KB]
 [Message: File Tree] |
 [Message: File Tree] |-- MLLoader
 [Message: File Tree] |   |
@@ -380,7 +390,8 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] |   |
 [Message: File Tree] |   |-- Mods
 [Message: File Tree] |   |   |
-[Message: File Tree] |   |   \-- CheckoutTheme.dll [14,5 KB]
+[Message: File Tree] |   |   |-- CheckoutTheme.dll [14,5 KB]
+[Message: File Tree] |   |   \-- FurnitureAnywhere.dll [8,5 KB]
 [Message: File Tree] |   |
 [Message: File Tree] |   |-- Plugins
 [Message: File Tree] |   |
@@ -449,6 +460,7 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Message: File Tree] \-- winhttp.dll [25,5 KB]
 [Info   : Unity Log] NPCsCustomNames: Cashiers_Names.json loaded!
 [Info   : Unity Log] NPCsCustomNames: Restockers_Names.json loaded!
+[Info   : Unity Log] NPCsCustomNames: Guards_Names.json loaded!
 [Info   : Unity Log] NPCsCustomNames: Added lines from NPCsCustomNames_Text.txt
 [Info   : Unity Log] NPCsCustomNames: List created from matching files!
 [Info   : Unity Log] NPCsCustomNames: Added names from NPCsCustomNames_List.txt
@@ -463,86 +475,45 @@ UnityEngine.InputSystem.InputSystem:.cctor()
 [Info   : Unity Log] Custom 3D Objects loaded!
 [Info   : Unity Log] Custom Textures loaded!
 [Info   :AutoPriceUpdater] AutoPriceUpdater has been initialized!
-[Info   :AutoPriceUpdater] All prices are up to date.
+[Info   :AutoPriceUpdater] Prices updated! Total updated prices: 156
 [Info   : Unity Log] NewGameEnumeratorStart
 [Error  : Unity Log] Couldn't find any FurnitureSO with id: 1337
 [Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
 Stack trace:
-FurnitureGenerator.SpawnFurniture (System.Int32 id, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-DisplayManager.LoadDisplayData () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-DisplayManager.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+FurnitureGenerator.SpawnFurniture (System.Int32 id, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) (at <944a9a1f88e24b4e88297afda9876302>:0)
+DisplayManager.LoadDisplayData () (at <944a9a1f88e24b4e88297afda9876302>:0)
+DisplayManager.Start () (at <944a9a1f88e24b4e88297afda9876302>:0)
 
 [Error  : Unity Log] Couldn't find any FurnitureSO with id: 589980
 [Error  : Unity Log] Couldn't find any FurnitureSO with id: 589600
 [Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
 Stack trace:
-FurnitureGenerator.SpawnFurniture (System.Int32 id, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-RackManager.LoadRackData () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
-RackManager.Start () (at <1f9fffb55e93460fa6e593194d8a04cd>:0)
+FurnitureGenerator.SpawnFurniture (System.Int32 id, UnityEngine.Vector3 position, UnityEngine.Quaternion rotation, UnityEngine.Transform parent) (at <944a9a1f88e24b4e88297afda9876302>:0)
+RackManager.LoadRackData () (at <944a9a1f88e24b4e88297afda9876302>:0)
+RackManager.Start () (at <944a9a1f88e24b4e88297afda9876302>:0)
+
+[Info   : Unity Log] Prefab bulunamadý! garbageId: 13
+[Error  : Unity Log] InvalidOperationException: Collection was modified; enumeration operation may not execute.
+Stack trace:
+System.Collections.Generic.List`1+Enumerator[T].MoveNextRare () (at <c0b7b90d34a54066a7234dad69255116>:0)
+System.Collections.Generic.List`1+Enumerator[T].MoveNext () (at <c0b7b90d34a54066a7234dad69255116>:0)
+GarbageGenerator.LoadSaveData () (at <944a9a1f88e24b4e88297afda9876302>:0)
+GarbageGenerator.Start () (at <944a9a1f88e24b4e88297afda9876302>:0)
 
 [Info   :AutoPriceUpdater] Starting AutoPriceUpdater...
+[Info   :AutoPriceUpdater] Some product prices are not set. Updating 24 prices...
+[Info   :AutoPriceUpdater] Missing prices updated!
 [Info   :AutoPriceUpdater] Ignored products: None
+[Info   : Unity Log] Move Trash Bin: Trash Bin position saved!
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
+[Warning: Unity Log] Can not play a disabled audio source
 [Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/50 to 200/125. Use DOTween.SetTweensCapacity to set it manually at startup
 [Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 200/125 to 500/125. Use DOTween.SetTweensCapacity to set it manually at startup
 [Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 500/125 to 500/312. Use DOTween.SetTweensCapacity to set it manually at startup
 [Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 500/312 to 1250/312. Use DOTween.SetTweensCapacity to set it manually at startup
-[Warning: Unity Log] <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 1250/312 to 1250/780. Use DOTween.SetTweensCapacity to set it manually at startup
-[Info   : Unity Log] Move Trash Bin: Trash Bin position saved!
-[Info   : Unity Log] AITrafficCar__Coupe_1A(Clone)
-[Info   : Unity Log] AITrafficCar__Supersport_1A(Clone)
-[Info   : Unity Log] AITrafficCar__Sedan_3A(Clone)
-[Info   : Unity Log] AITrafficCar__PickUp_1A(Clone)
-[Info   : Unity Log] AITrafficCar__Taxi_1A(Clone)
-[Info   : Unity Log] AITrafficCar__Compact_1A(Clone)
-[Info   : Unity Log] Checkout
-[Info   : Unity Log] Scanning
-[Info   : Unity Log] Checkout
-[Info   : Unity Log] Scanning
-[Info   : Unity Log] Checkout
-[Info   : Unity Log] Scanning
-[Info   : Unity Log] Checkout
-[Info   : Unity Log] Scanning
-[Info   : Unity Log] Checkout
-[Info   : Unity Log] Scanning
-[Info   : Unity Log] AITrafficCar__Supersport_1A
-[Warning: Unity Log] Can not play a disabled audio source
-[Info   : Unity Log] AITrafficCar__Sedan_3A
-[Warning: Unity Log] Can not play a disabled audio source
-[Info   : Unity Log] Switch Off
-[Info   : Unity Log] CustomerHurtFemale (3)
-[Info   : Unity Log] CustomerHurtFemale (4)
-[Info   : Unity Log] Checkout Warning SFX
-[Info   : Unity Log] Window Cleaning SFX
-[Info   : Unity Log] Checkout
-[Info   : Unity Log] Checkout
-[Info   : Unity Log] Switch On
-[Info   : Unity Log] Checkout
-[Info   : Unity Log] Checkout
-[Info   : Unity Log] AITrafficCar__Taxi_1A
-[Warning: Unity Log] Can not play a disabled audio source
-[Info   : Unity Log] Scanning
-[Info   : Unity Log] Scanning
-[Info   : Unity Log] Money Paper
-[Info   : Unity Log] Picking Up Box
-[Info   : Unity Log] Coin
-[Info   : Unity Log] Scanning Product
-[Info   : Unity Log] Mouse Click
-[Info   : Unity Log] Cash Register Open
-[Info   : Unity Log] Cash Register Close
-[Info   : Unity Log] Dropping Box
-[Info   : Unity Log] Place Item SFX
-[Info   : Unity Log] Checkout SFX
-[Info   : Unity Log] Background SFX
-[Warning: Unity Log] Can not play a disabled audio source
-[Info   : Unity Log] Mop Cleaning SFX
-[Info   : Unity Log] Scanning
-[Info   : Unity Log] Scanning
-[Info   : Unity Log] Security Camera
-[Info   : Unity Log] Speaker
-[Info   : Unity Log] Dirty Store Warning SFX
 [Info   : Unity Log] Destroy NewGameEnumerator
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
-[Warning: Unity Log] You're attempting to despawn a gameObject that wasn't spawned from a pool (or the pool was destroyed).
